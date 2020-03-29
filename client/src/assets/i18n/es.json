@@ -1,0 +1,82 @@
+{
+    "header": {
+        "index": "inicio",
+        "packages":"paquetes",
+        "services": "servicios",
+        "opinions": "opiniones",
+        "contact": "contacto",
+        "co-host": "co-host"
+    },
+    "index": {
+        "carrousel": {
+            "title": "Titulo del carousel",
+            "subtitle": "Este es el subtitulo del carrousel",
+            "button": "texto botón"
+        },
+        "packages": [
+            {
+                "title": "Paquete 1",
+                "items": [
+                    "primera linea",
+                    "segunda linea",
+                    "tercera linea",
+                    "cuarta linea",
+                    "quinta linea"
+                ],
+                "cost": "XX%"
+            },
+            {
+                "title": "Paquete 2",
+                "items": [
+                    "primera linea",
+                    "segunda linea",
+                    "tercera linea",
+                    "cuarta linea",
+                    "quinta linea"
+                ],
+                "cost": "XX%"
+            },
+            {
+                "title": "Paquete 3",
+                "items": [
+                    "primera linea",
+                    "segunda linea",
+                    "tercera linea",
+                    "cuarta linea",
+                    "quinta linea"
+                ],
+                "cost": "XX%"
+            }
+        ],
+        "services": [
+            {
+                "title": "titulo 1",
+                "subtitle": "es un subtitulo 1"
+            },
+            {
+                "title": "titulo 2",
+                "subtitle": "es un subtitulo 2"
+            },
+            {
+                "title": "titulo 3",
+                "subtitle": "es un subtitulo 3"
+            }
+        ],
+        "opinions": [
+            {
+                "title": "Titulo de una opinion",
+                "opinion": [
+                    "parrafo 1",
+                    "parrafo 2"
+                ]
+            },
+            {
+                "title": "Titulo de una opinion",
+                "opinion": [
+                    "parrafo 1",
+                    "parrafo 2"
+                ]
+            }
+        ]
+    }
+}
