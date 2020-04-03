@@ -5,10 +5,12 @@ import { WebComponent } from './web.component';
 import { IndexComponent } from './index/index.component';
 
 const routes: Routes = [
-  { path: '', 
+  { path: ':language', 
     component: WebComponent,
     children: [
-      { path: '', component: IndexComponent }
+      { path: '', component: IndexComponent },
+      { path: '*', component: IndexComponent },
+      { path: '**', component: IndexComponent }
     ] 
   }
 ];

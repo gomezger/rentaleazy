@@ -14,6 +14,7 @@ import { WebComponent } from './web.component';
 import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CarouselComponent } from './index/carousel/carousel.component';
 
 
 @NgModule({
@@ -21,7 +22,7 @@ import { FooterComponent } from './components/footer/footer.component';
     WebComponent, 
     IndexComponent, 
     HeaderComponent, 
-    FooterComponent
+    FooterComponent, CarouselComponent
   ],
   imports: [
     CommonModule,

@@ -1,10 +1,10 @@
 {
    "header": {
-       "index": "inicio",
+       "index": "home",
        "packages":"packages",
-       "services": "servicios",
-       "opinions": "opiniones",
-       "contact": "contacto",
+       "services": "services",
+       "opinions": "opinions",
+       "contact": "contact",
        "co-host": "co-host"
    },
    "index": {
