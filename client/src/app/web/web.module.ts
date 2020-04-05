@@ -15,6 +15,7 @@ import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './index/carousel/carousel.component';
+import { ServicesComponent } from './index/services/services.component';
 
 
 @NgModule({
@@ -22,7 +23,7 @@ import { CarouselComponent } from './index/carousel/carousel.component';
     WebComponent, 
     IndexComponent, 
     HeaderComponent, 
-    FooterComponent, CarouselComponent
+    FooterComponent, CarouselComponent, ServicesComponent
   ],
   imports: [
     CommonModule,

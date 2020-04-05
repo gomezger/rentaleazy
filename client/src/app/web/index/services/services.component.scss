@@ -1,0 +1,103 @@
+$colorBorde: solid 1px rgb(226, 226, 226);
+
+.title{    
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.line{
+    border-color: #666;
+}
+
+.packages{
+    width: 100%;
+}
+
+.packages .package{
+    font-family: 'Montserrat', sans-serif;
+    width: 33%;
+    padding: 20px;
+    float: left;
+}
+.packages .package .content{
+    width: 100%;
+    border: $colorBorde;
+    border-top: solid 5px rgb(22, 22, 22);
+}
+.packages .package .header{
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: $colorBorde;
+}
+.packages .package .header .title{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 25px;
+}
+.packages .package .header .price{
+    width: 100%;
+    font-family: 'Inria Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgb(158, 158, 158);
+}
+.packages .package .header .price .symbol{
+    font-size: 18px;
+    padding-left: 3px;
+}
+
+.packages .package .header .best{    
+    width: 50%;
+    margin: 0px 25%;
+    margin-top: 20px;
+    padding: 3px;
+    text-align: center;
+    background-color: rgba(30, 109, 133, 0.897);
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.packages .package .items{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.packages .package .items .item{
+    width: 100%;
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    color: rgb(71, 71, 71);
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.packages .package .items .item::first-letter{
+    text-transform: capitalize;
+}
+
+.packages .package .footer{
+    border-top: $colorBorde;
+    margin-top: 30px;
+}
+
+.packages .package .footer .contact{
+    width: 50%;
+    margin: 25px 25%;
+    padding: 3px;
+    text-align: center;
+    background-color: rgba(109, 44, 44, 0.63);
+    color: white;
+    border-radius: 20px;
+}

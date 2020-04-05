@@ -13,41 +13,55 @@
             "subtitle": "Este es el subtitulo del carrousel",
             "button": "texto botón"
         },
-        "packages": [
-            {
-                "title": "Paquete 1",
-                "items": [
-                    "primera linea",
-                    "segunda linea",
-                    "tercera linea",
-                    "cuarta linea",
-                    "quinta linea"
-                ],
-                "cost": "XX%"
-            },
-            {
-                "title": "Paquete 2",
-                "items": [
-                    "primera linea",
-                    "segunda linea",
-                    "tercera linea",
-                    "cuarta linea",
-                    "quinta linea"
-                ],
-                "cost": "XX%"
-            },
-            {
-                "title": "Paquete 3",
-                "items": [
-                    "primera linea",
-                    "segunda linea",
-                    "tercera linea",
-                    "cuarta linea",
-                    "quinta linea"
-                ],
-                "cost": "XX%"
-            }
-        ],
+        "packages": {
+            "title": "Paquetes",
+            "options": [
+                {
+                    "title": "Paquete 1",
+                    "items": [
+                        "primera linea",
+                        "segunda linea",
+                        "tercera linea",
+                        "cuarta linea",
+                        "quinta linea"
+                    ],
+                    "cost": {
+                        "number": "10",
+                        "symbol": "%"
+                    }
+                },
+                {
+                    "title": "Paquete 2",
+                    "items": [
+                        "primera linea",
+                        "segunda linea",
+                        "tercera linea",
+                        "cuarta linea",
+                        "quinta linea"
+                    ],
+                    "cost": {
+                        "number": "30",
+                        "symbol": "%"
+                    }
+                },
+                {
+                    "title": "Paquete 3",
+                    "items": [
+                        "primera linea",
+                        "segunda linea",
+                        "tercera linea",
+                        "cuarta linea",
+                        "quinta linea"
+                    ],
+                    "cost": {
+                        "number": "20",
+                        "symbol": "%"
+                    }
+                }
+            ],
+            "contact": "Contactar",
+            "best": "Recomendado"
+        },
         "services": [
             {
                 "title": "titulo 1",
