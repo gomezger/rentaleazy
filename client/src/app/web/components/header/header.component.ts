@@ -1,12 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core'
 import { ActivatedRoute, Router } from '@angular/router';
+import { Info } from 'src/app/services/info';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  // attributes
+  public phone: any;
+  public social: any;
 
   constructor(
     public translate: TranslateService,
@@ -15,6 +19,8 @@ export class HeaderComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.phone = Info.phone;
+    this.social = Info.social;
   }
 
   /**
