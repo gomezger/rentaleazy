@@ -1,0 +1,5 @@
+
+RewriteCond %{HTTP_HOST} ^rentaleazy\.tk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rentaleazy\.tk$
+RewriteRule ^/?$ "http\:\/\/rentaleazy\.tk\/es" [R=301,L]
+

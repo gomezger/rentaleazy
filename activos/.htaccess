@@ -1,0 +1,37 @@
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTPS} off
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+	RewriteCond %{HTTP:X-Forwarded-SSL} !on
+	RewriteCond %{HTTP_HOST} ^www\.rentaleazy\.com$
+	RewriteRule ^/?$ "https\:\/\/rentaleazy\.com\/" [R=301,L]
+
+	RewriteCond %{HTTP:X-Forwarded-SSL} !on
+	RewriteCond %{HTTP_HOST} ^www\.rentaleazy\.tk$
+	RewriteRule ^/?$ "https\:\/\/rentaleazy\.tk\/" [R=301,L]		
+	
+	RewriteCond %{HTTP:X-Forwarded-SSL} !on
+	RewriteCond %{HTTP_HOST} ^www\.rentaleazy\.tk
+	RewriteRule ^/ "https\:\/\/rentaleazy\.tk\/es" [R=301,L]	
+
+	RewriteCond %{HTTP:X-Forwarded-SSL} !on
+	RewriteCond %{HTTP_HOST} ^www\.rentaleazy\.es$
+	RewriteRule ^/?$ "https\:\/\/rentaleazy\.es\/" [R=301,L]	
+
+	#redirige el trafico de las redes sociales a un archivo con los meta tag cargados con php
+	RewriteCond %{HTTP_USER_AGENT} (facebookexternalhit/[0-9]|Twitterbot|Pinterest|Google.*snippet)
+	RewriteRule ^producto/(.*)$ https://toyomecrepuestos.com/producto.php?id=$1 [NC,L]
+
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^index\.html$ - [L]
+	RewriteCond %{HTTPS} on
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.html [L]
+	RewriteCond %{HTTPS} off
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+</IfModule>
+
