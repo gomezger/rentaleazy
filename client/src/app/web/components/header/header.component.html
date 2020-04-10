@@ -1,6 +1,9 @@
 <header class="clearfix">
   <div class="container">
-      <h2 class="slogan float-left ml-1 ml-md-0">Un programa de cuidado <span class="ocultar">para la familia</span></h2>
+      <h2 class="slogan float-left ml-1 ml-md-0">
+        {{ 'header.slogan.0' | translate }}
+        <span class="ocultar">{{ 'header.slogan.1' | translate }}</span>
+      </h2>
 
       <div class="derecha float-right">
           <h3 class="info float-left mr-4 d-none d-md-inline-block"><i class="fas fa-map-marker-alt mr-1"></i> Bahía Blanca</h3>
@@ -31,7 +34,7 @@
 
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" [routerLink]="['/',lang]">
       <img class="logo" src="assets/logo/logo.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +43,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav navbar-right ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" [routerLink]="['/']">{{'header.index' | translate}}</a>
+          <a class="nav-link" [routerLink]="['/',lang]">{{'header.index' | translate}}</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['packages']">{{'header.packages' | translate}}</a>
@@ -59,11 +62,23 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <div class="float-left">
+            <div *ngIf="lang && lang=='es'" class="float-left">
               <div class="flag-selection float-left pr-1">
                 <img src="assets/flags/spain.jpg" />
               </div>
               <span classs="pl-1"> Español</span>
+            </div>
+            <div *ngIf="lang && lang=='en'"class="float-left">
+              <div class="flag-selection float-left pr-1">
+                <img src="assets/flags/uk.jpg" />
+              </div>
+              <span classs="pl-1"> English</span>
+            </div>
+            <div *ngIf="lang && lang=='it'"class="float-left">
+              <div class="flag-selection float-left pr-1">
+                <img src="assets/flags/italy.jpg" />
+              </div>
+              <span classs="pl-1"> Italiano</span>
             </div>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

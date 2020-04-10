@@ -9,6 +9,7 @@ import { Info } from 'src/app/services/info';
 })
 export class HeaderComponent implements OnInit {
   // attributes
+  public lang: string;
   public phone: any;
   public social: any;
 
@@ -19,6 +20,7 @@ export class HeaderComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.lang = this._activatedRoute.snapshot.paramMap.get('language');
     this.phone = Info.phone;
     this.social = Info.social;
   }
@@ -30,6 +32,9 @@ export class HeaderComponent implements OnInit {
   setLanguage(lang_new: string): void{
     // set new language
     this.translate.use(lang_new);
+    
+    //modifico el lang acutal
+    this.lang = lang_new;
 
     // current language
     const lang_old:string = this._activatedRoute.snapshot.paramMap.get('language');
@@ -40,8 +45,10 @@ export class HeaderComponent implements OnInit {
     // replace es, en or it for new language
     const url_new = url_old.replace(lang_old, lang_new);
 
+
     // navigate to new url
     this._router.navigate([url_new]);
+
 
   }
 
