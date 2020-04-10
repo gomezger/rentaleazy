@@ -1,4 +1,12 @@
 $colorBorde: solid 1px rgb(226, 226, 226);
+$colorCeleste: rgb(0, 169, 224);
+$colorGrisOscuro: rgb(109, 110, 112);
+$colorGrisClaro: rgb(166, 168, 171);
+
+.services{
+    width: 100%;
+    background-image: url('/assets/textures/gray.jpg');
+}
 
 .title{    
     width: 100%;
@@ -24,11 +32,31 @@ $colorBorde: solid 1px rgb(226, 226, 226);
     padding: 20px;
     float: left;
 }
+.packages .package:hover{
+    padding: 12px 20px;
+    transition: 0.5s;
+    margin-bottom: 16px !important;
+}
 .packages .package .content{
     width: 100%;
     border: $colorBorde;
     border-top: solid 5px rgb(22, 22, 22);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 10px 17px -9px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 10px 17px -9px rgba(0,0,0,0.12);
+    box-shadow: 0px 10px 17px -9px rgba(0,0,0,0.12);
 }
+.packages .package .top{
+    border-top: solid 5px $colorCeleste;
+    position: relative;
+}
+.packages .package .top .top-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .packages .package .header{
     width: 100%;
     margin-top: 30px;
@@ -50,7 +78,7 @@ $colorBorde: solid 1px rgb(226, 226, 226);
     text-transform: uppercase;
     font-weight: normal;
     font-size: 30px;
-    color: rgb(158, 158, 158);
+    color: $colorCeleste;
 }
 .packages .package .header .price .symbol{
     font-size: 18px;
@@ -63,7 +91,7 @@ $colorBorde: solid 1px rgb(226, 226, 226);
     margin-top: 20px;
     padding: 3px;
     text-align: center;
-    background-color: rgba(30, 109, 133, 0.897);
+    background-color: $colorCeleste;
     color: white;
     border-radius: 20px;
     font-size: 13px;
@@ -80,8 +108,11 @@ $colorBorde: solid 1px rgb(226, 226, 226);
     text-align: center;
     font-family: 'Inria Sans', sans-serif;
     color: rgb(71, 71, 71);
-    margin-bottom: 10px;
-    font-size: 15px;
+    margin-bottom: 13px;
+    font-size: 17px;
+}
+.packages .package .items .item::first-letter{
+    text-transform: capitalize;
 }
 .packages .package .items .item::first-letter{
     text-transform: capitalize;
@@ -94,12 +125,18 @@ $colorBorde: solid 1px rgb(226, 226, 226);
 
 .packages .package .footer .contact{
     width: 50%;
-    margin: 25px 25%;
-    padding: 3px;
+    margin: 15px 25%;
+    padding: 10px 3px;
     text-align: center;
-    background-color: rgba(109, 44, 44, 0.63);
+    background-color: $colorCeleste;
     color: white;
-    border-radius: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.packages .package .footer .contact:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 122, 163);
 }
 
 
@@ -112,8 +149,19 @@ $colorBorde: solid 1px rgb(226, 226, 226);
 @media only screen and (max-width: 991px) {	
     .packages .package{
         width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .packages .package:hover{
         padding: 0px;
-        margin-bottom: 20px;
+        transition: 0.5s;
+    }
+
+    .packages{
+        float: left;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
 

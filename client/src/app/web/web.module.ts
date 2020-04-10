@@ -16,6 +16,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './index/carousel/carousel.component';
 import { ServicesComponent } from './index/services/services.component';
+import { ArrowRightComponent } from './components/arrow-right/arrow-right.component';
 
 
 @NgModule({
@@ -23,7 +24,10 @@ import { ServicesComponent } from './index/services/services.component';
     WebComponent, 
     IndexComponent, 
     HeaderComponent, 
-    FooterComponent, CarouselComponent, ServicesComponent
+    FooterComponent, 
+    CarouselComponent, 
+    ServicesComponent,
+    ArrowRightComponent
   ],
   imports: [
     CommonModule,

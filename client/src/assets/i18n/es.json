@@ -5,13 +5,17 @@
         "services": "servicios",
         "opinions": "opiniones",
         "contact": "contacto",
-        "co-host": "co-host"
+        "co-host": "co-host",
+        "slogan": [
+            "Este es el slogan o frase ",
+            "de la web"
+        ]
     },
     "index": {
         "carrousel": {
-            "title": "Titulo del carousel",
-            "subtitle": "Este es el subtitulo del carrousel",
-            "button": "texto botón"
+            "title": "Palabras clave nivel 1",
+            "subtitle": "Esto es un subtitulo de nivel 2",
+            "button": "Nuestros servicios"
         },
         "packages": {
             "title": "Paquetes",
@@ -37,7 +41,9 @@
                         "segunda linea",
                         "tercera linea",
                         "cuarta linea",
-                        "quinta linea"
+                        "quinta linea",
+                        "sexta linea",
+                        "septima linea"
                     ],
                     "cost": {
                         "number": "30",
