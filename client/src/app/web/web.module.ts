@@ -17,6 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './index/carousel/carousel.component';
 import { ServicesComponent } from './index/services/services.component';
 import { ArrowRightComponent } from './components/arrow-right/arrow-right.component';
+import { ViewsComponent } from './index/views/views.component';
+import { ViewComponent } from './index/views/view/view.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { ArrowRightComponent } from './components/arrow-right/arrow-right.compon
     FooterComponent, 
     CarouselComponent, 
     ServicesComponent,
-    ArrowRightComponent
+    ArrowRightComponent,
+    ViewsComponent,
+    ViewComponent
   ],
   imports: [
     CommonModule,
