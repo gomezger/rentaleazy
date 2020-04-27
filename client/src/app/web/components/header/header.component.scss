@@ -63,3 +63,10 @@ header .info.telefono{
         font-size: 17px !important;
     }
 }
+
+
+@media only screen and (max-width: 350px) {	
+    .ocultar{
+        display: none;
+    }
+}

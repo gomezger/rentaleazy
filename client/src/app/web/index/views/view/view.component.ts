@@ -11,6 +11,11 @@ export class ViewComponent implements OnInit {
   @Input() active: boolean = false;
   @Input() image: string;
   @Input() text: string;
+  @Input() title: string;
+  @Input() photo: string;
+  @Input() score: string;
+  @Input() name: string;
+  @Input() surname: string;
 
   constructor() { }
 

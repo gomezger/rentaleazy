@@ -1,15 +1,25 @@
 
 <div class="container">
-    {{text}}
-    <div class="view col-12 p-0">
+    <div class="view col-12 p-0 mt-3">
         <div class="image" [style.backgroundImage]="'url('+image+')'"></div>
         <div class="info">
-            <div class="title">s</div>
-            <div class="text"></div>
-            <div class="person">
-                <div class="photo"></div>
-                <div class="score"></div>
-                <div class="name"></div>
+            <div class="title col-12 p-0">
+                <i class="fas fa-comment mr-2"></i>
+                <span>{{title}}</span>
+            </div>
+            <div class="text">
+                <div class="op text-secondary">
+                    Lo que dicen:
+                </div>
+                <p>{{text}}</p>
+            </div>
+            <div class="person col-12 p-0">
+                <div class="photo"><img [attr.src]="photo" /></div>
+                <div class="name">{{name}}<br />{{surname}}</div>
+                <div class="score">
+                    <i class="far fa-star mr-2"></i>
+                    {{score}}
+                </div>
             </div>
         </div>
     </div>

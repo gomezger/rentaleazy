@@ -3,14 +3,16 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { WebComponent } from './web.component';
 import { IndexComponent } from './index/index.component';
-import { ServicesComponent } from './index/services/services.component';
+import { ServicesComponent } from './services/services.component';
+import { ViewsComponent } from './index/views/views.component';
 
 const routes: Routes = [
   { path: ':language', 
     component: WebComponent,
     children: [
       { path: '', component: IndexComponent },
-      { path: 'packages', component: ServicesComponent },
+      { path: 'services', component: ServicesComponent },
+      { path: 'opinions', component: ViewsComponent },
       { path: '*', component: IndexComponent },
       { path: '**', component: IndexComponent }
     ] 

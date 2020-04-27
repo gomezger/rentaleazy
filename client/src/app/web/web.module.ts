@@ -19,6 +19,9 @@ import { ServicesComponent } from './index/services/services.component';
 import { ArrowRightComponent } from './components/arrow-right/arrow-right.component';
 import { ViewsComponent } from './index/views/views.component';
 import { ViewComponent } from './index/views/view/view.component';
+import { PackagesComponent } from './index/packages/packages.component';
+import { AboutComponent } from './index/about/about.component';
+import { CheckComponent } from './components/check/check.component';
 
 
 @NgModule({
@@ -31,7 +34,10 @@ import { ViewComponent } from './index/views/view/view.component';
     ServicesComponent,
     ArrowRightComponent,
     ViewsComponent,
-    ViewComponent
+    ViewComponent,
+    PackagesComponent,
+    AboutComponent,
+    CheckComponent
   ],
   imports: [
     CommonModule,

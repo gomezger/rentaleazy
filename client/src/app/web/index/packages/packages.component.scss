@@ -1,0 +1,246 @@
+$colorBorde: solid 1px rgb(226, 226, 226);
+$colorCeleste: rgb(0, 169, 224);
+$colorGrisOscuro: rgb(109, 110, 112);
+$colorGrisClaro: rgb(166, 168, 171);
+
+.packages{
+    width: 100%;
+}
+
+.packages .package{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('/assets/packages/completo.jpeg');
+    background-position: center;
+    background-size: 130% auto;
+}
+
+.packages .package.checkin{
+    background-image: url('/assets/packages/check.jpeg');;
+    color: black !important;
+}
+
+.packages .package .degrade{
+    background-image: -webkit-gradient(linear,right top,left bottom,color-stop(0, rgb(0, 117, 153)),color-stop(1, rgb(255, 255, 255)));
+    background-image: -o-linear-gradient(left, rgba(0, 117, 153, 0.9) 50%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: -moz-linear-gradient(left, rgba(0, 117, 153, 0.9) 50%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: -webkit-linear-gradient(left, rgba(0, 117, 153, 0.9) 50%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: -ms-linear-gradient(left, rgba(0, 117, 153, 0.9) 50%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: linear-gradient(to left, rgba(0, 117, 153, 0.9) 50%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.packages .package .degrade2{
+    background-image: -webkit-gradient(linear,right bottom,left bottom,color-stop(0, rgb(0, 117, 153)),color-stop(1, rgb(255, 255, 255)));
+    background-image: -o-linear-gradient(right, rgba(0, 117, 153, 0.1) 50%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: -moz-linear-gradient(right, rgba(0, 117, 153, 0.1) 50%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: -webkit-linear-gradient(right, rgba(0, 117, 153, 0.1) 50%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: -ms-linear-gradient(right, rgba(0, 117, 153, 0.1) 50%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: linear-gradient(to right, rgba(0, 117, 153, 0.5) 50%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.packages .package .degrade3{
+    background-image: unset;
+}
+
+.packages .package .title{
+    color: white;
+    font-size: 35px;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.packages .package .box-data{
+    max-width: 400px;
+    border-radius: 0px;
+    color: rgb(248, 248, 248);
+}
+
+.packages .package .box-data .description{
+    font-size: 15.5px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 12px 20px;
+    -webkit-box-shadow: 0px 10px 17px -9px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 10px 17px -9px rgba(0,0,0,0.12);
+    box-shadow: 0px 10px 17px -9px rgba(0,0,0,0.12);
+    background-color: rgba(29, 80, 97, 0.5);
+}
+.packages .package .box-data .description-check{
+    border-radius: 5px;
+    box-shadow: 0px 10px 17px -9px rgba(0,0,0,0);
+    background-color: rgba(0, 117, 153, 0.089);
+    color: rgb(3,3,3,1);
+}
+
+
+.packages .package .extra-data{
+    max-width: 400px;
+}
+.packages .package .extra-data .price{
+    float: left;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+}
+.packages .package .extra-data .price-check{
+    color: rgb(3,3,3,1);
+}
+
+.packages .package .extra-data .price .number{
+    float: left;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.packages .package .extra-data .price .symbol{
+    float: left;
+    margin-top: 16px;
+    font-size: 40px;
+}
+
+.packages .package .extra-data .price .unit{
+    float: left;
+    margin-top: 44px;
+    font-size: 14px;
+}
+
+
+.packages .package .extra-data .contact{
+    float: right;
+    margin: 15px 0;
+    margin-top: 18px;
+    padding: 10px 25px;
+    text-align: center;
+    background-color: $colorCeleste;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 1px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+}
+.packages .package .extra-data .contact:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 122, 163);
+}
+
+.packages .package .items{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.packages .package .items .item{
+    width: 100%;
+    font-family: 'Inria Sans', sans-serif;
+    color: rgb(226, 226, 226);
+    margin-bottom: 13px;
+    line-height: 29px;
+    font-size: 19px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); 
+}
+.packages .package .items .item.item-check{
+    color: #222;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+}
+.packages .package .items .item::first-letter{
+    text-transform: capitalize;
+}
+.packages .package .items .item::first-letter{
+    text-transform: capitalize;
+}
+
+
+@media only screen and (max-width: 1410px) {    
+}
+
+@media only screen and (max-width: 1199px) { 
+}
+
+@media only screen and (max-width: 991px) {	
+    .packages .package .title{
+        font-size: 25px;
+    }   
+    .packages .package .box-data .description{
+        font-size: 13.5px;
+        line-height: 28px;
+        padding: 12px 17px;
+        -webkit-box-shadow: 0px 10px 17px -9px rgba(0,0,0,0.12);
+        -moz-box-shadow: 0px 10px 17px -9px rgba(0,0,0,0.12);
+        box-shadow: 0px 10px 17px -9px rgba(0,0,0,0.12);
+        background-color: rgba(29, 80, 97, 0.5);
+    } 
+
+    .packages .package .extra-data {
+        width: 80%;
+        margin: 15px 10%;
+    }
+        
+
+    .packages .package .extra-data .price{
+        font-size: 45px;
+    }
+        
+    .packages .package .extra-data .price .symbol{
+        float: left;
+        margin-top: 15px;
+        font-size: 30px;
+    }
+    
+    .packages .package .extra-data .price .unit{
+        float: left;
+        margin-top: -14px;
+        font-size: 12px;
+        clear: both;
+        margin-left: 0 !important;
+    }
+    
+    
+    .packages .package .extra-data .contact{
+        float: right;
+        margin: 15px 0;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 8px 18px;
+        text-align: center;
+        background-color: $colorCeleste;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 1px;
+        font-size: 14px;
+    }
+    .packages .package .extra-data .contact:hover{
+        transition: 0.5s;
+        background-color: rgb(0, 122, 163);
+    }
+    
+    .packages .package .items{
+
+    }
+    .packages .package .items .item{
+        width: 100%;
+        font-family: 'Inria Sans', sans-serif;
+        color: rgb(226, 226, 226);
+        margin-top: 25px;
+        margin-bottom: 13px;
+        line-height: 8px;
+        font-size: 16px;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); 
+    }
+    .packages .package .items .item.item-check{
+        color: #222;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+    }
+    .packages .package .items .item::first-letter{
+        text-transform: capitalize;
+    }
+    .packages .package .items .item::first-letter{
+        text-transform: capitalize;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 360px) {
+}

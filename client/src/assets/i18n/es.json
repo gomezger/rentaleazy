@@ -7,61 +7,59 @@
         "contact": "contacto",
         "co-host": "co-host",
         "slogan": [
-            "Este es el slogan o frase ",
-            "de la web"
+            "Gestión integral de tu alquiler ",
+            "inmobiliario"
         ]
     },
     "index": {
         "carrousel": {
-            "title": "Palabras clave nivel 1",
-            "subtitle": "Esto es un subtitulo de nivel 2",
-            "button": "Nuestros servicios"
+            "title": "Gestión integral de tu alquiler inmobiliario",
+            "subtitle": "Gestionamos el alquiler de tu piso turístico y de larga estancia en Valencia y alrededores",
+            "button": "Ver Paquetes"
         },
         "packages": {
             "title": "Paquetes",
             "options": [
                 {
-                    "title": "Paquete 1",
+                    "title": "Gestión completa",
                     "items": [
-                        "primera linea",
-                        "segunda linea",
-                        "tercera linea",
-                        "cuarta linea",
-                        "quinta linea"
+                        "Optimización del precio",
+                        "Gestión de las reservas",
+                        "Análisis de los huéspedes",
+                        "Check-in y check-out",
+                        "Servicio de atención al huésped 24h",
+                        "Limpieza profesional",
+                        "Atención al mantenimiento del hogar",
+                        "Cambio de ropa de cama y baño"
                     ],
+                    "description": "Servicio personalizado para la gestión de tu alquiler turístico, desde gestionar las reservas en múltiples plataformas, hasta la recepción de los huéspedes 24hs asesoramiento, limpieza profunda y revisión del apartamento en general para que todo funcione correctamente. Todo lo necesario para sacarle el mayor rendimiento a tu alquiler.",
                     "cost": {
-                        "number": "10",
-                        "symbol": "%"
+                        "number": "18",
+                        "symbol": "%",
+                        "unit": "por reserva"
                     }
                 },
                 {
-                    "title": "Paquete 2",
+                    "title": "Servicio Check-in ",
                     "items": [
-                        "primera linea",
-                        "segunda linea",
-                        "tercera linea",
-                        "cuarta linea",
-                        "quinta linea",
-                        "sexta linea",
-                        "septima linea"
-                    ],
+                        "Contacto con los huéspedes",
+                        "Recepción y bienvenida al apartamento",
+                        "Explicación del funcionamiento de la vivienda ",
+                        "Entrega de llaves ",
+                        "Información sobre actividades en la ciudad ",
+                        "Entrega de llaves ",
+                        "Asesoramiento turístico"
+                    ],                   
+                    "description": {
+                        "days": "de lunes a viernes de",
+                        "weekend": "Fin de semana",
+                        "out": "Precios fuera de horario",
+                        "int": "a"
+                    },
                     "cost": {
-                        "number": "30",
-                        "symbol": "%"
-                    }
-                },
-                {
-                    "title": "Paquete 3",
-                    "items": [
-                        "primera linea",
-                        "segunda linea",
-                        "tercera linea",
-                        "cuarta linea",
-                        "quinta linea"
-                    ],
-                    "cost": {
-                        "number": "20",
-                        "symbol": "%"
+                        "number": "18",
+                        "symbol": "€",
+                        "unit": "Desde"
                     }
                 }
             ],
