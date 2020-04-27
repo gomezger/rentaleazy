@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   public lang: string;
   public phone: any;
   public social: any;
+  public city: any;
 
   constructor(
     public translate: TranslateService,
@@ -23,6 +24,7 @@ export class HeaderComponent implements OnInit {
     this.lang = this._activatedRoute.snapshot.paramMap.get('language');
     this.phone = Info.phone;
     this.social = Info.social;
+    this.city = Info.city;
   }
 
   /**

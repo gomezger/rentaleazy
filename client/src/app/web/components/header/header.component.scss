@@ -54,6 +54,9 @@ header .info.telefono{
 
 
 @media only screen and (max-width: 991px) {	
+    .navbar .navbar-brand .logo{
+        max-width: 150px;
+    }
     .nav-item{
         text-align: center !important;
     } 

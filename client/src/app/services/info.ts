@@ -2,6 +2,7 @@
  * para prod
  */
 export let Info = {
+    city: "Valencia",
     phone: {
         cod: {
             int : "54",

@@ -15,7 +15,7 @@ import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './index/carousel/carousel.component';
-import { ServicesComponent } from './index/services/services.component';
+import { ServicesComponent } from './services/services.component';
 import { ArrowRightComponent } from './components/arrow-right/arrow-right.component';
 import { ViewsComponent } from './index/views/views.component';
 import { ViewComponent } from './index/views/view/view.component';

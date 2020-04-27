@@ -1,10 +1,9 @@
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 <section class="footers bg-light pb-3">
    <div class="container pt-5">
        <div class="row">
            <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
     		    <div class="footers-logo">
-    		        <img src="assets/logo/logo.png" alt="Logo" style="width:120px;">
+    		        <img src="assets/logo/logo.png" alt="Logo" >
     		    </div>
     		    <div class="footers-info mt-3">
     		        <p>
@@ -24,40 +23,36 @@
 					</div>
 	        	</div>
     		</div>
-    	    <div class="col-xs-12 col-sm-6 col-md-2 footers-one">
+    	    <div class="col-xs-12 col-sm-6 col-md-2 footers-one d-none d-md-inline-block">
+    		    <ul class="list-unstyled text-right ">
+					<li><a [routerLink]="['/',lang]">Inicio</a></li>
+				</ul>
     	    </div>
-    	    <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
-    		    <h5>Information </h5>
-    		    <ul class="list-unstyled">
-    			 <li><a href="maintenance.html">Register Now</a></li>
-    			 <li><a href="contact.html">Advice</a></li>
-    			 <li><a href="about.html">Videos</a></li>
-    			 <li><a href="about.html">Blog</a></li>
-    			 <li><a href="about.html">Services</a></li>
+    	    <div class="col-xs-12 col-sm-6 col-md-2 footers-two d-none d-md-inline-block">
+    		    <ul class="list-unstyled text-right">
+					<li><a [routerLink]="['services']">Servicios</a></li>
     			</ul>
     	    </div>
-    	    <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+    	    <div class="col-xs-12 col-sm-6 col-md-2 footers-three d-none d-md-inline-block">
+    		    <ul class="list-unstyled text-right">
+					<li><a [routerLink]="['co-host']">Co-Host</a></li>
+				</ul>
     		</div>
-    	   <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
-    		    <h5>Explore </h5>
-    		    <ul class="list-unstyled">
-    			 <li><a href="maintenance.html">News</a></li>
-    			 <li><a href="contact.html">Sitemap</a></li>
-    			 <li><a href="about.html">Testimonials</a></li>
-    			 <li><a href="about.html">Feedbacks</a></li>
-    			 <li><a href="about.html">User Agreement</a></li>
-    			</ul>
+    	   <div class="col-xs-12 col-sm-6 col-md-2 footers-four d-none d-md-inline-block">
+				<ul class="list-unstyled text-right">
+					<li><a [routerLink]="['contact']">Contacto</a></li>
+				</ul>
     		</div>    		
        </div>
    </div>
 </section>
-<section class="disclaimer bg-light border">
+<section class="disclaimer bg-light border d-none">
     <div class="container">
         <div class="row ">
-            <div class="col-md-12 py-2">
+            <div class="col-md-12 py-2 text-md-left text-center">
                 <small>
-                   Disclaimer: Element Limited is only an intermediary offering its platform to facilitate the transactions between Seller and Customer/Buyer/User and is not and cannot be a party to or control in any manner any transactions between the Seller and the Customer/Buyer/User. All the offers and discounts on this Website have been extended by various Builder(s)/Developer(s) who have advertised their products. Element is only communicating the offers and not selling or rendering any of those products or services. It neither warrants nor is it making any representations with respect to offer(s) made on the site. Element Limited shall neither be responsible nor liable to mediate or resolve any disputes or disagreements between the Customer/Buyer/User and the Seller and both Seller and Customer/Buyer/User shall settle all such disputes without involving Element Limited in any manner.
-               </small>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec et odio pellentesque diam. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Integer feugiat scelerisque varius morbi enim. Suspendisse in est ante in nibh mauris.
+				</small>
             </div>
         </div>
     </div>
@@ -66,7 +61,9 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 pt-3">
-                <p class="text-muted">© 2018 xyz Software Pvt. Ltd.</p>
+                <p class="text-muted text-right">
+					<a class="text-light" href="https://xeronweb.com">© 2020 Rentaleazy. Hecho por Xeron Web</a>
+				</p>
             </div>
         </div>
     </div>

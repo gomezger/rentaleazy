@@ -1,4 +1,4 @@
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleSlidesOnly" class="carousel slide mb-0 p-0" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="slide col-12 p-0 m-0">
@@ -9,7 +9,7 @@
           <div class="line d-inline-block"></div>
           <h2>{{ 'index.carrousel.subtitle' | translate }}</h2>
           <div class="clearfix"></div>
-          <a href="#" class="btn btn-light active mt-1 d-md-none" role="button" aria-pressed="true">
+          <a [routerLink]="['services']" class="btn btn-light active mt-1 d-none" role="button" aria-pressed="true">
             {{'index.carrousel.button' | translate}}
           </a>
         </div>
