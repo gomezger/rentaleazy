@@ -1,39 +1,44 @@
-.footers a {color:#eeeeee !important;}
-.footers p {color:#eeeeee;}
+.footers a {
+    color:#ffffff !important;
+    text-transform: uppercase;
+}
+.footers p {color:#ffffff !important;}
 .footers ul {line-height:30px;}
-#social-fb:hover {
-     color: #3B5998;
-     transition:all .001s;
- }
- #social-tw:hover {
-     color: #4099FF;
-     transition:all .001s;
- }
- #social-gp:hover {
-     color: #d34836;
-     transition:all .001s;
- }
- #social-em:hover {
-     color: #f39c12;
-     transition:all .001s;
- }
 
- .footers-logo{
-    width: 130px;
+.footers-logo img{
+    width: 350px;
 }
 .footers, .disclaimer {
-    background-color: rgb(0, 26, 34) !important;
-    color: #efefef !important;
+    background-color: #00A9E0 !important;
+    color: #ffffff !important;
     border: 0px solid #EEE !important;
 }
 .copyright{
     background-color: rgb(0, 16, 20) !important;
-    color: #efefef !important;
+    color: #eeeeee !important;
     border: 0px solid #EEE !important;
     border-top: 1px solid rgb(0, 37, 46) !important;
     font-size: 14px;
 }
+header .slogan, header .info{
+    padding-top: 6px;
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
 
+
+header .info.telefono{
+    padding-top: 3.5px;
+    font-size: 5px !important;
+}
+header .info.telefono a{
+    font-size: 5px !important;
+}
+
+.redes{
+    font-size: 20px;
+}
 @media only screen and (max-width: 991px) {	
     .footers-logo{
         width: 80%;

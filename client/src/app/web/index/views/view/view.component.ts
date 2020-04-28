@@ -20,7 +20,6 @@ export class ViewComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.active);
   }
 
 }

@@ -25,12 +25,45 @@
   content: '>';
   font-size: 45px;
   color: #00A9E0;
-  font-family: 'Lexend Giga', sans-serif;
+  font-family: 'gilroy-light', 'Lexend Giga', sans-serif;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 45px;
   color: #00A9E0;
-  font-family: 'Lexend Giga', sans-serif;
+  font-family: 'gilroy-light', 'Lexend Giga', sans-serif;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 20px;
+  height: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 0;
+  background: #6d6e70;
+}
+
+ol.carousel-indicators li.active {
+  background: #00A9E0;
+}
+
+
+@media only screen and (max-width: 1410px) {   
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 360px) {
 }

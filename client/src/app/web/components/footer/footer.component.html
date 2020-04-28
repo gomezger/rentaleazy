@@ -3,46 +3,48 @@
        <div class="row">
            <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
     		    <div class="footers-logo">
-    		        <img src="assets/logo/logo.png" alt="Logo" >
+    		        <img src="assets/logo/logo-light-blue.jpg" alt="Logo" >
     		    </div>
-    		    <div class="footers-info mt-3">
+    		    <div class="footers-info mt-3 d-none">
     		        <p>
 						{{ 'header.slogan.0' | translate }}
 						<span class="ocultar">{{ 'header.slogan.1' | translate }}</span>
 					</p>
     		    </div>
-    		    <div class="social-icons text-dark"> 		  
+    		    <div class="social-icons text-dark mt-3 ml-2"> 		  
 					<div class="redes float-left mr-1 mr-md-0 text-dark">
 						<a [href]="social.facebook.url" class="text-dark mr-2 mr-md-2" target="_blank"><i class="fab fa-facebook-square"></i></a>
 						<a [href]="social.instagram.url" class="text-dark mr-2 mr-md-2" target="_blank"><i class="fab fa-instagram"></i></a>
 						<a 
 						  [href]="'https://api.whatsapp.com/send?phone='+social.whatsapp.cod.int+''+social.whatsapp.cod.nac+''+social.whatsapp.number" 
-						  class="text-dark" target="_blank">
+						  class="text-dark mr-2 mr-md-2" target="_blank">
 							<i class="fab fa-whatsapp"></i>
 						</a>
+						<div class="info telefono  d-inline-block mr-1 mr-2 mr-md-2">
+						  <a href="tel:02914526024">
+							<i class="fas fa-phone mr-2 text-light"></i>
+						  </a>
+						  <small class="d-none d-md-inline-block text-light mr-3">
+							{{ phone.cod.int }}
+							{{ phone.cod.nac }}
+							{{ phone.number }}
+						  </small>
+						</div>
 					</div>
 	        	</div>
     		</div>
     	    <div class="col-xs-12 col-sm-6 col-md-2 footers-one d-none d-md-inline-block">
     		    <ul class="list-unstyled text-right ">
-					<li><a [routerLink]="['/',lang]">Inicio</a></li>
-				</ul>
-    	    </div>
-    	    <div class="col-xs-12 col-sm-6 col-md-2 footers-two d-none d-md-inline-block">
-    		    <ul class="list-unstyled text-right">
-					<li><a [routerLink]="['services']">Servicios</a></li>
-    			</ul>
-    	    </div>
-    	    <div class="col-xs-12 col-sm-6 col-md-2 footers-three d-none d-md-inline-block">
-    		    <ul class="list-unstyled text-right">
-					<li><a [routerLink]="['co-host']">Co-Host</a></li>
 				</ul>
     		</div>
-    	   <div class="col-xs-12 col-sm-6 col-md-2 footers-four d-none d-md-inline-block">
-				<ul class="list-unstyled text-right">
+			<div class="col-xs-12 col-sm-6 col-md-6 footers-four text-right d-none d-md-inline-block">
+				<ul class="list-unstyled">
+					<li><a [routerLink]="['/',lang]">Inicio</a></li>
+					<li><a [routerLink]="['services']">Servicios</a></li>
+					<li><a [routerLink]="['co-host']">Co-Host</a></li>
 					<li><a [routerLink]="['contact']">Contacto</a></li>
 				</ul>
-    		</div>    		
+			</div>    		
        </div>
    </div>
 </section>
@@ -61,7 +63,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 pt-3">
-                <p class="text-muted text-right">
+                <p class="text-muted text-center text-md-right">
 					<a class="text-light" href="https://xeronweb.com">© 2020 Rentaleazy. Hecho por Xeron Web</a>
 				</p>
             </div>
