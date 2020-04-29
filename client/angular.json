@@ -31,7 +31,8 @@
               "src/styles.scss",
               "src/scss/animate.scss",
               "src/scss/fonts.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/fontawesome-5.13.0/css/all.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
