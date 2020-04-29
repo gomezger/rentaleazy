@@ -1,10 +1,13 @@
+$colorBlueLight: rgba(0, 168, 224, 0.671);
+$colorBlue: rgba(0, 77, 102, 0.70);
+$colorBlackOpa: rgba(0,0,0,0.6);
+
 .front{
     position: relative;
 }
 
 .frase{
     position: relative;
-    background-color: rgba(0,0,0,0.6);
     width: 100%;
     height: 100%;
     font-family: 'Montserrat', cursive;
@@ -24,8 +27,7 @@
     max-width: 900px;
     height: 270px;
     padding: 20px 20px;
-    //background-color: rgba(0, 77, 102, 0.70);
-    background-color: rgba(0, 0, 0, 0.452);
+    background-color: $colorBlue;
     color: rgb(233, 233, 233);
     border-radius: 7px;
 }
