@@ -1,6 +1,6 @@
 $colorBlueLight: rgba(0, 168, 224, 0.671);
 $colorBlue: rgba(0, 77, 102, 0.70);
-$colorBlackOpa: rgba(0,0,0,0.6);
+$colorBlackOpa: rgba(0,0,0,0.4);
 
 .front{
     position: relative;
@@ -27,7 +27,7 @@ $colorBlackOpa: rgba(0,0,0,0.6);
     max-width: 900px;
     height: 270px;
     padding: 20px 20px;
-    background-color: $colorBlue;
+    background-color: $colorBlackOpa;
     color: rgb(233, 233, 233);
     border-radius: 7px;
 }
