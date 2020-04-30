@@ -22,6 +22,7 @@ import { ViewComponent } from './index/views/view/view.component';
 import { PackagesComponent } from './index/packages/packages.component';
 import { AboutComponent } from './index/about/about.component';
 import { CheckComponent } from './components/check/check.component';
+import { AdditionalComponent } from './index/additional/additional.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { CheckComponent } from './components/check/check.component';
     ViewComponent,
     PackagesComponent,
     AboutComponent,
-    CheckComponent
+    CheckComponent,
+    AdditionalComponent
   ],
   imports: [
     CommonModule,

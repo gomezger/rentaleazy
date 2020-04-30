@@ -18,10 +18,10 @@
             "button": "Ver Paquetes"
         },
         "packages": {
-            "title": "Paquetes",
+            "title": "Servicios",
             "options": [
                 {
-                    "title": "Gestión completa",
+                    "title": "Gestión Completa",
                     "items": [
                         "Optimización del precio",
                         "Gestión de las reservas",
@@ -66,20 +66,24 @@
             "contact": "Contactar",
             "best": "Recomendado"
         },
-        "services": [
-            {
-                "title": "titulo 1",
-                "subtitle": "es un subtitulo 1"
-            },
-            {
-                "title": "titulo 2",
-                "subtitle": "es un subtitulo 2"
-            },
-            {
-                "title": "titulo 3",
-                "subtitle": "es un subtitulo 3"
-            }
-        ],
+        "additional": {
+            "title": "Adicionales",
+            "options":
+                [
+                    {
+                        "title": "titulo 1",
+                        "subtitle": "es un subtitulo 1"
+                    },
+                    {
+                        "title": "titulo 2",
+                        "subtitle": "es un subtitulo 2"
+                    },
+                    {
+                        "title": "titulo 3",
+                        "subtitle": "es un subtitulo 3"
+                    }
+                ]
+        },
         "opinions": [
             {
                 "title": "Titulo de una opinion",

@@ -1,0 +1,34 @@
+.additional{
+    background-color: #EFEFEF;
+    min-height: 400px;
+}
+.additional h1{
+    float: left;
+    font-family: 'gilroy-ligth', 'Lexend Giga', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-top: 75px;
+}
+
+
+
+@media only screen and (max-width: 1410px) {    
+}
+
+@media only screen and (max-width: 1199px) { 
+}
+
+@media only screen and (max-width: 991px) {	
+}
+
+@media only screen and (max-width: 780px) {
+    .additional h1{
+        font-size: 30px;
+    }    
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 360px) {
+}

@@ -1,85 +1,95 @@
-<section class="packages mt-0">        
-    <div class="package col-12 p-0">   
-        <div class="degrade h-100 col-12 p-0">
-            <div class="container clearfix pt-5">
-                <h4 class="title col-12 text-center pb-3 pb-md-5">{{'index.packages.options.0.title' | translate}}</h4>  
-                <div class="col-12 col-md-5 float-right">                    
-                    <ul class="items mb-3 mb-md-5 text-md-left text-center">
-                        <li class="item"><check></check>{{'index.packages.options.0.items.0' | translate}}</li>
-                        <li class="item"><check></check>{{'index.packages.options.0.items.1' | translate}}</li>
-                        <li class="item"><check></check>{{'index.packages.options.0.items.2' | translate}}</li>
-                        <li class="item"><check></check>{{'index.packages.options.0.items.3' | translate}}</li>
-                        <li class="item"><check></check>{{'index.packages.options.0.items.4' | translate}}</li>
-                        <li class="item"><check></check>{{'index.packages.options.0.items.5' | translate}}</li>
-                        <li class="item"><check></check>{{'index.packages.options.0.items.6' | translate}}</li>
-                        <li class="item"><check></check>{{'index.packages.options.0.items.7' | translate}}</li>
+<section class="float-left title-service col-12 p-0">
+  <div class="gradient float-left col-12 p-0">
+    <div class="container text-center">
+        <h1 class="title-package col-12 text-center" data-aos="fade-up">{{'index.packages.title' | translate}}</h1>
+        <img class="d-inline-block" src="/assets/line-box.png">
+
+        <section class="packages col-12">
+            <div class="container text-center">
+                <div class="package">
+                    <div class="icon"><i class="fas fa-house-damage"></i></div>
+                    <h6 class="title">{{'index.packages.options.0.title' | translate}}</h6>
+                    <ul class="items mb-1 mb-md-2 text-center">
+                        <li class="item">{{'index.packages.options.0.items.0' | translate}}</li>
+                        <li class="item">{{'index.packages.options.0.items.1' | translate}}</li>
+                        <li class="item">{{'index.packages.options.0.items.2' | translate}}</li>
+                        <li class="item">{{'index.packages.options.0.items.3' | translate}}</li>
+                        <li class="item">{{'index.packages.options.0.items.4' | translate}}</li>
+                        <li class="item">{{'index.packages.options.0.items.5' | translate}}</li>
+                        <li class="item">{{'index.packages.options.0.items.6' | translate}}</li>
+                        <li class="item">{{'index.packages.options.0.items.7' | translate}}</li>
                     </ul>
-                </div>
-                <div class="col-12 col-md-7 float-right p-0">
-                    <div class="box-data mt-0 clearfix d-none d-md-inline-block">
-                        <p class="description">
-                            {{'index.packages.options.0.description' | translate}}
-                        </p>
-                    </div>
-                    <div class="extra-data">
+                    <a [routerLink]="['services/gestion-completa']" class="more text-secondary float-left col-12 mt-1 mb-3">
+                        Ver más 
+                    </a>
+                    <div class="data">
                         <div class="price">
                             <div class="number">18</div>
                             <div class="symbol">%</div>
                             <div class="unit ml-2">{{'index.packages.options.0.cost.unit' | translate}}</div>
                         </div>
-                        <div class="contact">
+                        <button type="button" class="contact" data-toggle="modal" data-target="#exampleModalCenter">
                             {{'index.packages.contact' | translate}}
-                        </div>
+                        </button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-     
-    <div class="package checkin col-12 p-0 d-none">   
-        <div class="degrade2 h-100 col-12 p-0 pt-3 pb-3">
-            <h4 class="title col-12 text-dark text-center mt-3 mb-3 float-left">
-                <i class="fas fa-key pr-3"></i>
-                {{'index.packages.options.1.title' | translate}}
-            </h4>
-            <div class="container clearfix pt-5">
-                <div class="col-7 float-left text-dark">                    
-                    <ul class="items mt-3 mb-5 ">
-                        <li class="item item-check"><check></check>{{'index.packages.options.1.items.0' | translate}}</li>
-                        <li class="item item-check"><check></check>{{'index.packages.options.1.items.1' | translate}}</li>
-                        <li class="item item-check"><check></check>{{'index.packages.options.1.items.2' | translate}}</li>
-                        <li class="item item-check"><check></check>{{'index.packages.options.1.items.3' | translate}}</li>
-                        <li class="item item-check"><check></check>{{'index.packages.options.1.items.4' | translate}}</li>
-                        <li class="item item-check"><check></check>{{'index.packages.options.1.items.5' | translate}}</li>
-                        <li class="item item-check"><check></check>{{'index.packages.options.1.items.6' | translate}}</li>
+                <div class="package package-checkin">
+                    <div class="icon"><i class="fas fa-key"></i></div>
+                    <h6 class="title">{{'index.packages.options.1.title' | translate}}</h6>
+                    <ul class="items mb-1 mb-md-2 text-center">
+                        <li class="item">{{'index.packages.options.1.items.0' | translate}}</li>
+                        <li class="item">{{'index.packages.options.1.items.1' | translate}}</li>
+                        <li class="item">{{'index.packages.options.1.items.2' | translate}}</li>
+                        <li class="item">{{'index.packages.options.1.items.3' | translate}}</li>
+                        <li class="item">{{'index.packages.options.1.items.4' | translate}}</li>
+                        <li class="item">{{'index.packages.options.1.items.5' | translate}}</li>
+                        <li class="item">{{'index.packages.options.1.items.6' | translate}}</li>
+                        <li class="item">{{'index.packages.options.1.items.6' | translate}}</li>
                     </ul>
-                </div>
-                <div class="col-5 float-left">
-                    <div class="box-data mt-3 clearfix">
-                        <div class="description description-check">
-                            <p><arrow></arrow><b>18 €</b> {{'index.packages.options.1.description.days' | translate}} 9hs a 20hs</p>
-                            <p><arrow></arrow>{{'index.packages.options.1.description.weekend' | translate}}: +4€</p>
-                            <p><arrow></arrow>{{'index.packages.options.1.description.out' | translate}}:</p>                 
-                            <ul class="mt-3 mb-5 ">
-                                <li class="">20h {{'index.packages.options.1.description.int' | translate}} 22h: 25€</li>
-                                <li class="">22h {{'index.packages.options.1.description.int' | translate}} 00h: 35€</li>
-                                <li class="">00h {{'index.packages.options.1.description.int' | translate}} 9h: 45€</li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                    <div class="extra-data">
-                        <div class="price price-check">
-                            <div class="unit mr-3">{{'index.packages.options.1.cost.unit' | translate}}</div>
+                    <a [routerLink]="['services/check-in']" class="more text-secondary float-left col-12 mt-1 mb-3">
+                        Ver más 
+                    </a>
+                    <div class="data">
+                        <div class="price">
                             <div class="number">18</div>
                             <div class="symbol">€</div>
+                            <div class="unit ml-2">{{'index.packages.options.1.cost.unit' | translate}}</div>
                         </div>
-                        <div class="contact">
+                        <button type="button" class="contact" data-toggle="modal" data-target="#exampleModalCenter">
                             {{'index.packages.contact' | translate}}
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        
     </div>
+  </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Elegí la opción de contacto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="option option-phone">
+                <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="option">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <div class="option">
+                <i class="far fa-envelope"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="clearfix"></div>
