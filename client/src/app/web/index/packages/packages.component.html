@@ -1,12 +1,12 @@
 <section class="float-left title-service col-12 p-0">
   <div class="gradient float-left col-12 p-0">
     <div class="container text-center">
-        <h1 class="title-package col-12 text-center" data-aos="fade-up">{{'index.packages.title' | translate}}</h1>
+        <h1 class="title-package col-12 text-center scroll-reveal-100">{{'index.packages.title' | translate}}</h1>
         <img class="d-inline-block" src="/assets/line-box.png">
 
         <section class="packages col-12">
             <div class="container text-center">
-                <div class="package">
+                <div [routerLink]="['services/complete']" class="package package-complete scroll-reveal-300">
                     <div class="icon"><i class="fas fa-house-damage"></i></div>
                     <h6 class="title">{{'index.packages.options.0.title' | translate}}</h6>
                     <ul class="items mb-1 mb-md-2 text-center">
@@ -19,44 +19,38 @@
                         <li class="item"><check></check>{{'index.packages.options.0.items.6' | translate}}</li>
                         <li class="item"><check></check>{{'index.packages.options.0.items.7' | translate}}</li>
                     </ul>
-                    <a [routerLink]="['services/gestion-completa']" class="more text-secondary float-left col-12 mt-1 mb-3">
-                        Ver más 
-                    </a>
                     <div class="data">
                         <div class="price">
                             <div class="number">18</div>
                             <div class="symbol">%</div>
                             <div class="unit ml-2">{{'index.packages.options.0.cost.unit' | translate}}</div>
                         </div>
-                        <button type="button" class="contact" data-toggle="modal" data-target="#exampleModalCenter">
-                            {{'index.packages.contact' | translate}}
+                        <button [routerLink]="['services/complete']"  type="button" class="contact">
+                            {{'index.packages.more' | translate}}
                         </button>
                     </div>
                 </div>
-                <div class="package package-checkin">
+                <div [routerLink]="['services/check-in']" class="package package-checkin scroll-reveal-300">
                     <div class="icon"><i class="fas fa-key"></i></div>
                     <h6 class="title">{{'index.packages.options.1.title' | translate}}</h6>
                     <ul class="items mb-1 mb-md-2 text-center">
-                        <li class="item">{{'index.packages.options.1.items.0' | translate}}</li>
-                        <li class="item">{{'index.packages.options.1.items.1' | translate}}</li>
-                        <li class="item">{{'index.packages.options.1.items.2' | translate}}</li>
-                        <li class="item">{{'index.packages.options.1.items.3' | translate}}</li>
-                        <li class="item">{{'index.packages.options.1.items.4' | translate}}</li>
-                        <li class="item">{{'index.packages.options.1.items.5' | translate}}</li>
-                        <li class="item">{{'index.packages.options.1.items.6' | translate}}</li>
-                        <li class="item">{{'index.packages.options.1.items.6' | translate}}</li>
+                        <li class="item"><check></check>{{'index.packages.options.1.items.0' | translate}}</li>
+                        <li class="item"><check></check>{{'index.packages.options.1.items.1' | translate}}</li>
+                        <li class="item"><check></check>{{'index.packages.options.1.items.2' | translate}}</li>
+                        <li class="item"><check></check>{{'index.packages.options.1.items.3' | translate}}</li>
+                        <li class="item"><check></check>{{'index.packages.options.1.items.4' | translate}}</li>
+                        <li class="item"><check></check>{{'index.packages.options.1.items.5' | translate}}</li>
+                        <li class="item"><check></check>{{'index.packages.options.1.items.6' | translate}}</li>
+                        <li class="item"><check></check>{{'index.packages.options.1.items.6' | translate}}</li>
                     </ul>
-                    <a [routerLink]="['services/check-in']" class="more text-secondary float-left col-12 mt-1 mb-3">
-                        Ver más 
-                    </a>
                     <div class="data">
                         <div class="price">
                             <div class="number">18</div>
                             <div class="symbol">€</div>
                             <div class="unit ml-2">{{'index.packages.options.1.cost.unit' | translate}}</div>
                         </div>
-                        <button type="button" class="contact" data-toggle="modal" data-target="#exampleModalCenter">
-                            {{'index.packages.contact' | translate}}
+                        <button [routerLink]="['services/check-in']"  type="button" class="contact">
+                            {{'index.packages.more' | translate}}
                         </button>
                     </div>
                 </div>
@@ -67,29 +61,5 @@
   </div>
 </section>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Elegí la opción de contacto</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <div class="option option-phone">
-                <i class="fas fa-mobile-alt"></i>
-            </div>
-            <div class="option">
-                <i class="fab fa-whatsapp"></i>
-            </div>
-            <div class="option">
-                <i class="far fa-envelope"></i>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
 <div class="clearfix"></div>

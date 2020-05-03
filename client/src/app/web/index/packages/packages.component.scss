@@ -36,13 +36,21 @@ $colorGrisClaro: rgb(166, 168, 171);
     min-width: 400px;
     margin: 0 50px;
     border: 1px solid rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.package-complete{    
+    background-image: url('/assets/ribbon_blue_right_top.png');
+    background-repeat: no-repeat;
+    background-position-y:  -1px;
+    background-position-x:  right;
 }
 
 .packages .package:hover{
     background-color: rgba(255, 255, 255, 1);
-    transition: all 0.2s ease-in-out 0.2s;
     border: 1px solid $colorCeleste;
     text-decoration: none;
+    transition: 2s;
 }
 
 .packages .package-checkin{
@@ -188,7 +196,7 @@ $colorGrisClaro: rgb(166, 168, 171);
 
 @media only screen and (max-width: 780px) {
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     .packages .package{
         min-width: 350px;

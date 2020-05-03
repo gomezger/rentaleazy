@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import ScrollReveal from 'scrollreveal';
 
 @Component({
   selector: 'app-packages',
@@ -13,9 +11,8 @@ export class PackagesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    AOS.init({
-      duration: 1200,
-    })
+    ScrollReveal().reveal('.scroll-reveal-300', { delay: 300, easing: 'ease-in' });
+    ScrollReveal().reveal('.scroll-reveal-100', { delay: 100, easing: 'ease-in'  });
   }
 
 }

@@ -1,0 +1,110 @@
+$colorCeleste: rgb(0, 169, 224);
+
+p.description{
+    margin-top: 10px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: #eee;
+}
+
+section.data{
+    padding: 80px 0;
+    padding-bottom: 60px;
+}
+
+.items{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.items .item{
+    width: 100%;
+    font-family: 'Inria Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 13px;
+    line-height: 29px;
+    font-size: 17px;
+}
+.items .item.item-check{
+    color: #222;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+}
+.items .item::first-letter{
+    text-transform: capitalize;
+}
+.items .item::first-letter{
+    text-transform: capitalize;
+}
+
+
+.extra{
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.extra .price{
+    font-size: 55px;
+    color: rgb(39, 39, 39);
+    display: inline-block;
+}
+.extra .price .number{
+    display: inline-block;
+    font-family: 'Lexend Giga', sans-serif;
+}
+.extra .price .symbol{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 40px;
+}
+.extra .price .unit{
+    display: block;
+    clear: both;
+    text-align: left !important;
+    margin-top: -20px;
+    font-size: 14px;
+}
+.extra .price .unit-check{
+    margin-top: 0px;
+    margin-bottom: -15px;
+}
+.extra .contact{
+    display: inline-block;
+    margin: 15px 0;
+    margin-top: 25px;
+    padding: 10px 25px;
+    text-align: center;
+    background-color: $colorCeleste;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 1px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+}
+.extra .contact:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 122, 163);
+}
+
+@media only screen and (max-width: 1410px) {    
+}
+
+@media only screen and (max-width: 1199px) { 
+}
+
+@media only screen and (max-width: 991px) {	
+}
+
+@media only screen and (max-width: 780px) {
+    p.description{
+        padding-top: 10px;
+        font-size: 14px;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 360px) {
+}

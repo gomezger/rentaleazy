@@ -13,7 +13,7 @@ import { WebModule } from './web/web.module';
     WebModule,
     NgbModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
