@@ -1,3 +1,8 @@
+
+$colorCeleste: rgb(0, 169, 224);
+$colorGrisOscuro: rgb(109, 110, 112);
+$colorGrisClaro: rgb(166, 168, 171);
+
 .additional{
     background-color: #EFEFEF;
     min-height: 400px;
@@ -8,6 +13,47 @@
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     margin-top: 75px;
+}
+
+
+.extra-service{
+    width: 240px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.extra-service:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.extra-service .icon{
+    display: inline-block;
+    font-size: 23px;
+    padding: 15px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    color: $colorCeleste;
+    border: 2px solid $colorCeleste;
+    margin-bottom: 20px;
+}
+
+.extra-service .subtitle{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: $colorGrisClaro;
+    font-weight: bold;
+    font-family: 'gilroy-ligth', 'Lexend Giga', sans-serif;
+}
+
+.extra-service .title{
+    font-size: 21px;
+    text-transform: uppercase;
+    color: $colorCeleste;
+    font-weight: bold;
 }
 
 
