@@ -28,6 +28,10 @@ import { CheckInComponent } from './services/check-in/check-in.component';
 import { AlquilerComponent } from './index/alquiler/alquiler.component';
 import { RentalsComponent } from './rentals/rentals.component';
 import { ContactComponent } from './contact/contact.component';
+import { CleanComponent } from './services/extras/clean/clean.component';
+import { BathComponent } from './services/extras/bath/bath.component';
+import { MaintenanceComponent } from './services/extras/maintenance/maintenance.component';
+import { PhotoComponent } from './services/extras/photo/photo.component';
 
 
 @NgModule({
@@ -49,7 +53,11 @@ import { ContactComponent } from './contact/contact.component';
     CheckInComponent,
     AlquilerComponent,
     RentalsComponent,
-    ContactComponent
+    ContactComponent,
+    CleanComponent,
+    BathComponent,
+    MaintenanceComponent,
+    PhotoComponent
   ],
   imports: [
     CommonModule,

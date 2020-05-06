@@ -197,6 +197,7 @@ $colorGrisClaro: rgb(166, 168, 171);
 @media only screen and (max-width: 780px) {
     h1{
         font-size: 25px;
+        margin-top: 20px !important;
     }
     .packages .package{
         min-width: 350px;

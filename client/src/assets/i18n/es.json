@@ -88,73 +88,121 @@
                         "subtitle": "Diseño y"
                     }
                 ]
+        }
+    },
+    "alquiler": {
+        "title": "Alquiler de media y larga duración",
+        "text1": "Nos encargamos de la gestión completa de alquileres de corta y larga estancia, así como pisos de estudiantes. Obtendrás mayores ingresos y flexibilidad que con un alquiler a largo plazo.",
+        "title2": "Modalidades de alquiler",
+        "text2":{
+            "p1" : "Tenemos dos modalidades de alquiler para tu piso de alquiler de media y larga estancia.",
+            "items": [
+                "Alquiler por habitación: Se alquilan las habitaciones de forma individual.",
+                "Alquiler de piso entero: Se alquila el piso completo al inquilino."
+            ],
+            "p2": "Gestionamos el alojamiento de jóvenes profesionales y estudiantes universitarios de grado, máster y doctorado así como de gente trabajadora.",
+            "p3": "Seleccionamos aquellos perfiles que se ajusten a tus deseos: Hombres, mujeres, Españoles o Internacionales, estudiantes de máster, jóvenes profesionales etc.",
+            "p4" : "Obtendrás mayores ingresos y flexibilidad que con un alquiler a largo plazo",
+            "p5" : "Gana tiempo y liberarte de preocupaciones sabiendo que tu piso está en las mejores condiciones y generando los mayores ingresos posibles."
         },
-        "alquiler": {
-            "title": "Alquiler de media y larga duración",
-            "text1": "Nos encargamos de la gestión completa de alquileres de corta y larga estancia, así como pisos de estudiantes. Obtendrás mayores ingresos y flexibilidad que con un alquiler a largo plazo.",
-            "title2": "Modalidades de alquiler",
-            "text2":{
-                "p1" : "Tenemos dos modalidades de alquiler para tu piso de alquiler de media y larga estancia.",
-                "items": [
-                    "Alquiler por habitación: Se alquilan las habitaciones de forma individual.",
-                    "Alquiler de piso entero: Se alquila el piso completo al inquilino."
-                ],
-                "p2": "Gestionamos el alojamiento de jóvenes profesionales y estudiantes universitarios de grado, máster y doctorado así como de gente trabajadora.",
-                "p3": "Seleccionamos aquellos perfiles que se ajusten a tus deseos: Hombres, mujeres, Españoles o Internacionales, estudiantes de máster, jóvenes profesionales etc.",
-                "p4" : "Obtendrás mayores ingresos y flexibilidad que con un alquiler a largo plazo",
-                "p5" : "Gana tiempo y liberarte de preocupaciones sabiendo que tu piso está en las mejores condiciones y generando los mayores ingresos posibles."
-            },
-            "title3": "Servicios integrales para propietarios",
-            "text3": {
-                "p1": "Ofrecemos el servicio más completo para asegurar el éxito en el alquiler de tu piso.",
-                "items":[
-                    {
-                        "title": "Gestión de reservas y anuncios",
-                        "text": "Garantía de máxima ocupación contamos con una gran visibilidad en las principales plataformas de anuncios."
-                    },
-                    {
-                        "title": "Interiorismo",
-                        "text": "Te asesoramos en la decoración de interiores, para tener tu piso con las últimas tendencias en decoración y así sacarle el mayor rendimiento a tu alquiler"
-                    },
-                    {
-                        "title": "Amoblamiento",
-                        "text": "Amoblamos el piso de acuerdo al perfil de inquilinos al que se desea arrendar la vivienda, adaptándonos al tu presupuesto"
-                    },
-                    {
-                        "title": "Servicio de limpieza",
-                        "text": "Limpiamos tu piso por día, semana o quincena. Adaptándonos a tus necesidades"
-                    },
-                    {
-                        "title": "Gestionamos los gastos del piso",
-                        "text": "Electricidad, gas, agua, internet etc. Hacemos seguimiento del pago del alquiler y las facturas por parte del inquilino. Por medio de comprobantes de pago."
-                    },
-                    {
-                        "title": "Servicio de mantenimiento",
-                        "text": "Reparación de cualquier tipo de avería (pintura, fontanería, electricidad etc.)"
-                    },
-                    {
-                        "title": "Reformas Integrales",
-                        "text": "Obras, remodelaciones y pequeñas reparaciones"
-                    }
-                ]
+        "title3": "Servicios integrales para propietarios",
+        "text3": {
+            "p1": "Ofrecemos el servicio más completo para asegurar el éxito en el alquiler de tu piso.",
+            "items":[
+                {
+                    "title": "Gestión de reservas y anuncios",
+                    "text": "Garantía de máxima ocupación contamos con una gran visibilidad en las principales plataformas de anuncios."
+                },
+                {
+                    "title": "Interiorismo",
+                    "text": "Te asesoramos en la decoración de interiores, para tener tu piso con las últimas tendencias en decoración y así sacarle el mayor rendimiento a tu alquiler"
+                },
+                {
+                    "title": "Amoblamiento",
+                    "text": "Amoblamos el piso de acuerdo al perfil de inquilinos al que se desea arrendar la vivienda, adaptándonos al tu presupuesto"
+                },
+                {
+                    "title": "Servicio de limpieza",
+                    "text": "Limpiamos tu piso por día, semana o quincena. Adaptándonos a tus necesidades"
+                },
+                {
+                    "title": "Gestionamos los gastos del piso",
+                    "text": "Electricidad, gas, agua, internet etc. Hacemos seguimiento del pago del alquiler y las facturas por parte del inquilino. Por medio de comprobantes de pago."
+                },
+                {
+                    "title": "Servicio de mantenimiento",
+                    "text": "Reparación de cualquier tipo de avería (pintura, fontanería, electricidad etc.)"
+                },
+                {
+                    "title": "Reformas Integrales",
+                    "text": "Obras, remodelaciones y pequeñas reparaciones"
+                }
+            ]
+        }
+    },
+    "extras": {
+        "photo":{
+            "title": "Fotografía y diseño",
+            "subtitle": "Presupuesto gratuito y sin compromiso",
+            "text": {
+                "p1": "Contamos con fotógrafos especializados en fotografía de interiores y de arquitectura, para que tu piso se destaque entre los demás con imágenes profesionales y de alta calidad.",
+                "p2": "Contamos con fotógrafos especializados en fotografía de interiores y de arquitectura, para que tu piso se destaque entre los demás con imágenes profesionales y de alta calidad.",
+                "p3": "Precio en función del servicio a contratar.",
+                "p4": "Presupuesto gratuito y sin compromiso."
             }
-
         },
-        "opinions": [
-            {
-                "title": "Titulo de una opinion",
-                "opinion": [
-                    "parrafo 1",
-                    "parrafo 2"
-                ]
-            },
-            {
-                "title": "Titulo de una opinion",
-                "opinion": [
-                    "parrafo 1",
-                    "parrafo 2"
-                ]
-            }
-        ]
+        "bath":{
+            "title": "Ropa de cama y baño",
+            "subtitle": "Si necesitas ropa de cama y toallas para tu piso turístico, Rentaleazy te provee de todo lo necesario. Para atender tus necesidades y ofrecer a tus huéspedes la máxima comodidad.",
+            "items": [
+                "Sábana bajera",
+                "Sábana encimera / funda edredón",
+                "2 fundas de almohada",
+                "2 toallas de ducha",
+                "2 toallas de baño",
+                "alfombrilla de baño"
+            ],
+            "cost": [
+                "1 set + 2 huéspedes",
+                "por set adicional",
+                "Nuestras sábanas y toallas son empleadas en hoteles 5 estrellas"
+            ],
+            "contact": "contactar"
+        },
+        "maintenance":{
+            "title": "Mantenimiento puerta a puerta",
+            "subtitle": "Te ofrecemos un servicio de mantenimiento completo, que va desde la revisión y reparación de cualquier tipo de avería, hasta la reforma integral o parcial de la vivienda.",
+            "items": [
+                "Revisión completa  de tu vivienda",
+                "Pequeños detalles y puesta a punto",
+                "Amoblamiento completo",
+                "Decoración",
+                "Reforma parcial o integral",
+                "Mantenimiento"
+            ],
+            "cost": [
+                "Precio en función del servicio concreto",
+                "Presupuesto gratuito y sin compromiso"
+            ],
+            "contact": "contactar"
+        },
+        "clean":{
+            "title": "Servicio de limpieza",
+            "subtitle": "Disponemos de \"servicio profesional\" de limpieza y lavandería, atendiendo cada detalle, para que tu apartamento esté siempre en optimas condiciones y que los huéspedes se sientan como en casaa.",
+            "items": [
+                "Limpieza completa de baños",
+                "Preparación y presentación de camas",
+                "Limpieza profunda de cocina y electrodomésticos*",
+                "Barrido, aspirado y fregado de suelos",
+                "Retriada de basura"
+            ],
+            "cost": [
+                "Desde",
+                "Para 1 vivienda de 1 dormitorio",
+                "Viviendas de mayor dimensión: +7,50€ por habitación"
+            ],
+            "text": "Todos los productos de limpieza serán proveídos por el propietario.",
+            "contact": "contactar"
+        }
     }
 }

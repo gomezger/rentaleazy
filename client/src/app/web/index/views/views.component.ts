@@ -12,9 +12,8 @@ export class ViewsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    $('.carousel').carousel({
-      pause: true,
-      interval: false
+    $('.carousel-views').carousel({
+      interval: 10000
     });
   }
 }
