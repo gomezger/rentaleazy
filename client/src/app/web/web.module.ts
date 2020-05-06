@@ -25,7 +25,9 @@ import { CheckComponent } from './components/check/check.component';
 import { AdditionalComponent } from './index/additional/additional.component';
 import { CompleteComponent } from './services/complete/complete.component';
 import { CheckInComponent } from './services/check-in/check-in.component';
-import { MiniatureComponent } from './index/additional/miniature/miniature.component';
+import { AlquilerComponent } from './index/alquiler/alquiler.component';
+import { RentalsComponent } from './rentals/rentals.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -45,7 +47,9 @@ import { MiniatureComponent } from './index/additional/miniature/miniature.compo
     AdditionalComponent,
     CompleteComponent,
     CheckInComponent,
-    MiniatureComponent
+    AlquilerComponent,
+    RentalsComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,61 @@
+$colorCeleste: rgb(0, 169, 224);
+
+h3{
+    float: left;
+    font-family: 'gilroy-ligth', 'Lexend Giga', sans-serif;
+    color: rgb(24, 24, 24);
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.parrafo{
+    padding: 0 20px !important;
+}
+.parrafo p, .parrafo ul{
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 17px;
+    padding-bottom: 0px;
+}
+.parrafo p, .parrafo ul li{
+    margin-top: 10px;
+    line-height: 30px;
+}
+p.description{
+    margin-top: 10px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: #eee;
+}
+
+section.data{
+    padding: 80px 0;
+    padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 1410px) {    
+}
+
+@media only screen and (max-width: 1199px) { 
+}
+
+@media only screen and (max-width: 991px) {	
+}
+
+@media only screen and (max-width: 780px) {
+
+    h3{
+        font-size: 20px;
+    }
+    p.description{
+        padding-top: 10px;
+        font-size: 14px;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 360px) {
+}

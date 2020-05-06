@@ -5,7 +5,7 @@
         "services": "servicios",
         "opinions": "opiniones",
         "contact": "contacto",
-        "co-host": "co-host",
+        "rentals": "alquileres",
         "slogan": [
             "Gestión integral de tu alquiler ",
             "inmobiliario"
@@ -72,18 +72,73 @@
             "options":
                 [
                     {
-                        "title": "titulo 1",
-                        "subtitle": "es un subtitulo 1"
+                        "title": "de Limpieza",
+                        "subtitle": "Servicio"
                     },
                     {
-                        "title": "titulo 2",
-                        "subtitle": "es un subtitulo 2"
+                        "title": "mantenimiento",
+                        "subtitle": "Puesta a Punto"
                     },
                     {
-                        "title": "titulo 3",
-                        "subtitle": "es un subtitulo 3"
+                        "title": "Ropa Cama/Baño",
+                        "subtitle": "Alquiler"
+                    },
+                    {
+                        "title": "Fotografía",
+                        "subtitle": "Diseño y"
                     }
                 ]
+        },
+        "alquiler": {
+            "title": "Alquiler de media y larga duración",
+            "text1": "Nos encargamos de la gestión completa de alquileres de corta y larga estancia, así como pisos de estudiantes. Obtendrás mayores ingresos y flexibilidad que con un alquiler a largo plazo.",
+            "title2": "Modalidades de alquiler",
+            "text2":{
+                "p1" : "Tenemos dos modalidades de alquiler para tu piso de alquiler de media y larga estancia.",
+                "items": [
+                    "Alquiler por habitación: Se alquilan las habitaciones de forma individual.",
+                    "Alquiler de piso entero: Se alquila el piso completo al inquilino."
+                ],
+                "p2": "Gestionamos el alojamiento de jóvenes profesionales y estudiantes universitarios de grado, máster y doctorado así como de gente trabajadora.",
+                "p3": "Seleccionamos aquellos perfiles que se ajusten a tus deseos: Hombres, mujeres, Españoles o Internacionales, estudiantes de máster, jóvenes profesionales etc.",
+                "p4" : "Obtendrás mayores ingresos y flexibilidad que con un alquiler a largo plazo",
+                "p5" : "Gana tiempo y liberarte de preocupaciones sabiendo que tu piso está en las mejores condiciones y generando los mayores ingresos posibles."
+            },
+            "title3": "Servicios integrales para propietarios",
+            "text3": {
+                "p1": "Ofrecemos el servicio más completo para asegurar el éxito en el alquiler de tu piso.",
+                "items":[
+                    {
+                        "title": "Gestión de reservas y anuncios",
+                        "text": "Garantía de máxima ocupación contamos con una gran visibilidad en las principales plataformas de anuncios."
+                    },
+                    {
+                        "title": "Interiorismo",
+                        "text": "Te asesoramos en la decoración de interiores, para tener tu piso con las últimas tendencias en decoración y así sacarle el mayor rendimiento a tu alquiler"
+                    },
+                    {
+                        "title": "Amoblamiento",
+                        "text": "Amoblamos el piso de acuerdo al perfil de inquilinos al que se desea arrendar la vivienda, adaptándonos al tu presupuesto"
+                    },
+                    {
+                        "title": "Servicio de limpieza",
+                        "text": "Limpiamos tu piso por día, semana o quincena. Adaptándonos a tus necesidades"
+                    },
+                    {
+                        "title": "Gestionamos los gastos del piso",
+                        "text": "Electricidad, gas, agua, internet etc. Hacemos seguimiento del pago del alquiler y las facturas por parte del inquilino. Por medio de comprobantes de pago."
+                    },
+                    {
+                        "title": "Servicio de mantenimiento",
+                        "text": "Reparación de cualquier tipo de avería (pintura, fontanería, electricidad etc.)"
+                    },
+                    {
+                        "title": "Reformas Integrales",
+                        "text": "Obras, remodelaciones y pequeñas reparaciones"
+                    }
+                ]
+            }
+
         },
         "opinions": [
             {

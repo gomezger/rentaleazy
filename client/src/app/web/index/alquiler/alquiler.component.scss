@@ -1,0 +1,42 @@
+
+$colorCeleste: rgb(0, 169, 224);
+$colorGrisOscuro: rgb(109, 110, 112);
+$colorGrisClaro: rgb(166, 168, 171);
+
+.additional{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+.additional h1{
+    float: left;
+    font-family: 'gilroy-ligth', 'Lexend Giga', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-top: 75px;
+}
+
+p{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1410px) {    
+}
+
+@media only screen and (max-width: 1199px) { 
+}
+
+@media only screen and (max-width: 991px) {	
+}
+
+@media only screen and (max-width: 780px) {
+    .additional h1{
+        font-size: 30px;
+    }    
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 360px) {
+}

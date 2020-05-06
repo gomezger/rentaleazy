@@ -5,8 +5,9 @@ $colorGrisClaro: rgb(166, 168, 171);
 
 .additional{
     background-color: #EFEFEF;
-    min-height: 400px;
+    padding-bottom: 50px;
 }
+
 .additional h1{
     float: left;
     font-family: 'gilroy-ligth', 'Lexend Giga', sans-serif;
@@ -14,7 +15,6 @@ $colorGrisClaro: rgb(166, 168, 171);
     text-transform: uppercase;
     margin-top: 75px;
 }
-
 
 .extra-service{
     width: 240px;
@@ -71,6 +71,22 @@ $colorGrisClaro: rgb(166, 168, 171);
     .additional h1{
         font-size: 30px;
     }    
+    .extra-service{
+        width: 150px;
+        padding: 5px;
+    }
+    
+    .extra-service .icon{
+        font-size: 20px;
+    }
+
+    .extra-service .subtitle{
+        font-size: 12px;
+    }
+
+    .extra-service .title{
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
