@@ -1,5 +1,5 @@
 .about{
-    font-size: 22px;
+    font-size: 30px;
     background-image: url('/assets/textures/bg-white.jpg');
     background-size: 100% auto;
 }
@@ -9,7 +9,20 @@
 }
 
 
+h1{
+    float: left;
+    font-family: 'gilroy-ligth', 'Lexend Giga', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-top: 75px;
+}
+
 @media only screen and (max-width: 991px) {	
+    
+    h1{
+        font-size: 30px;
+    }    
+
     .about{
         font-size: 17px;
         background-size: auto 100% ;

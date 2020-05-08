@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import ScrollReveal from 'scrollreveal';
 
 @Component({
@@ -7,6 +7,7 @@ import ScrollReveal from 'scrollreveal';
   styleUrls: ['./additional.component.scss']
 })
 export class AdditionalComponent implements OnInit {
+  @Input() recoil: string = '';
 
   constructor() { }
 

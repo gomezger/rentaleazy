@@ -12,6 +12,7 @@ import { CleanComponent } from './services/extras/clean/clean.component';
 import { BathComponent } from './services/extras/bath/bath.component';
 import { MaintenanceComponent } from './services/extras/maintenance/maintenance.component';
 import { PhotoComponent } from './services/extras/photo/photo.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 const routes: Routes = [
   { path: ':language', 
@@ -19,6 +20,7 @@ const routes: Routes = [
     children: [
       { path: '', component: IndexComponent },
       { path: 'rental', component: RentalsComponent },
+      { path: 'about-us', component: AboutUsComponent },
       { path: 'services', component: ServicesComponent},
       { path: 'services/complete', component: CompleteComponent },
       { path: 'services/check-in', component: CheckInComponent },

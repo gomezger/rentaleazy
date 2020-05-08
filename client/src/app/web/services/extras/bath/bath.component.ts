@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-bath',
@@ -12,9 +13,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BathComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public translate: TranslateService
+  ) { }
 
   ngOnInit(): void {
+    this.setData();
   }
 
+  setData(){
+    this.translate.get('extras.bath.tab-title').subscribe((res: string) => {
+      document.title = res;
+    });
+  }
 }

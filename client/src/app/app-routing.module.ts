@@ -12,7 +12,7 @@ const routes: Routes = [
 			routes, {
 				useHash: false,
 				scrollPositionRestoration: 'enabled',
-				enableTracing: true,
+				enableTracing: false,
 			}
 		)
   ],

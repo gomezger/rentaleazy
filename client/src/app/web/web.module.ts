@@ -32,6 +32,7 @@ import { CleanComponent } from './services/extras/clean/clean.component';
 import { BathComponent } from './services/extras/bath/bath.component';
 import { MaintenanceComponent } from './services/extras/maintenance/maintenance.component';
 import { PhotoComponent } from './services/extras/photo/photo.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 @NgModule({
@@ -57,7 +58,8 @@ import { PhotoComponent } from './services/extras/photo/photo.component';
     CleanComponent,
     BathComponent,
     MaintenanceComponent,
-    PhotoComponent
+    PhotoComponent,
+    AboutUsComponent
   ],
   imports: [
     CommonModule,

@@ -1,6 +1,7 @@
 {
     "header": {
         "index": "inicio",
+        "about-us": "nosotros",
         "packages":"paquetes",
         "services": "servicios",
         "opinions": "opiniones",
@@ -12,16 +13,28 @@
         ]
     },
     "index": {
+        "tab-title": "Rentaleazy | Gestión integral de tu alquiler inmobiliario | Valencia, España",
         "carrousel": {
             "title": "Gestión integral de tu alquiler inmobiliario",
             "subtitle": "Gestionamos el alquiler de tu piso turístico y de larga estancia en Valencia y alrededores",
             "button": "Ver Paquetes"
         },
+        "about": {
+            "who": {
+                "title": "Rentaleazy",
+                "p1" : "Somos un equipo de profesionales formados en hotelería, expertos en gestión de reservas, posicionamiento en múltiples plataformas y atención al cliente. ",
+                "p2" : "Ofrecemos todo tipo de servicios y gestión integral para tu inmueble.",
+                "p3" : "Con el objetivo de sacar el mayor rendimiento a tu alquiler inmobiliario, conseguir una mayor optimización de precios y aumentar tus ingresos.",
+                "p4" : "Nos enfocamos en obtener la máxima rentabilidad de tu alquiler inmobiliario, sin que tengas que preocuparte por nada."
+            }
+        },
         "packages": {
+            "tab-title": "Servicios Turísticos | Rentaleazy | Gestión integral de tu alquiler inmobiliario",
             "title": "Servicios",
             "options": [
                 {
                     "title": "Gestión Completa",
+                    "tab-title": "Gestión Completa | Servicios Turísticos | Rentaleazy",
                     "items": [
                         "Optimización del precio",
                         "Gestión de las reservas",
@@ -41,6 +54,7 @@
                 },
                 {
                     "title": "Servicio Check-in ",
+                    "tab-title": "Servicio Check-in | Servicios Turísticos | Rentaleazy",
                     "items": [
                         "Contacto con los huéspedes",
                         "Recepción y bienvenida al apartamento",
@@ -90,7 +104,27 @@
                 ]
         }
     },
+    "about": {
+        "tab-title": "Nosotros | Rentaleazy ",
+        "title": "Nosotros",
+        "who": {
+            "title": "¿Quiénes Somos?",
+            "p1" : "Rentaleazy es un equipo de profesionales formados en hotelería, expertos en gestión de reservas, posicionamiento en múltiples plataformas y atención al cliente. ",
+            "p2": "Ofrecemos todo tipo de servicios y gestión integral para tu inmueble.",
+            "p3" :"Con el objetivo de sacar el mayor rendimiento a tu alquiler inmobiliario, conseguir una mayor optimización de precios y aumentar tus ingresos.",
+            "p4" : "Nos enfocamos en obtener la máxima rentabilidad de tu alquiler inmobiliario, sin que tengas que preocuparte por nada."
+        },
+        "why" : {
+            "title": "¿Por qué Rentaleazy? ",
+            "p1" : "Somos pioneros con una larga trayectoria en el sector de alquileres turístico, de corta y larga duración",
+            "p2" : "Contamos con personal multilingüe altamente capacitado, apasionado por el buen servicio, la atención al cliente y el trato amable. ",
+            "p3" : "Contamos con personal multilingüe altamente capacitado, apasionado por el buen servicio, la atención al cliente y el trato amable. ",
+            "p4" : "Nuestro compromiso es ofrecer una optima experiencia, traducida en rentabilidad y crecimiento.",
+            "p5" : "Con Rentaleazy tendrás la tranquilidad de que tu propiedad está en buenas manos y tus huéspedes bien atendidos. Aumenta tus ingresos sin tener que preocuparte por nada. "
+        }
+    },
     "alquiler": {
+        "tab-title": "Alquileres de media y larga duración | Rentaleazy",
         "title": "Alquiler de media y larga duración",
         "text1": "Nos encargamos de la gestión completa de alquileres de corta y larga estancia, así como pisos de estudiantes. Obtendrás mayores ingresos y flexibilidad que con un alquiler a largo plazo.",
         "title2": "Modalidades de alquiler",
@@ -138,10 +172,12 @@
                     "text": "Obras, remodelaciones y pequeñas reparaciones"
                 }
             ]
-        }
+        },
+        "contact": "contactar"
     },
     "extras": {
         "photo":{
+            "tab-title": "Servicio de Fotografía y diseño | Rentaleazy ",
             "title": "Fotografía y diseño",
             "subtitle": "Presupuesto gratuito y sin compromiso",
             "text": {
@@ -152,6 +188,7 @@
             }
         },
         "bath":{
+            "tab-title": "Servicio de ropa de cama y baño | Rentaleazy ",
             "title": "Ropa de cama y baño",
             "subtitle": "Si necesitas ropa de cama y toallas para tu piso turístico, Rentaleazy te provee de todo lo necesario. Para atender tus necesidades y ofrecer a tus huéspedes la máxima comodidad.",
             "items": [
@@ -170,7 +207,8 @@
             "contact": "contactar"
         },
         "maintenance":{
-            "title": "Mantenimiento puerta a puerta",
+            "tab-title": "Servicio de mantenimiento | Rentaleazy ",
+            "title": "Mantenimiento puesta a punto",
             "subtitle": "Te ofrecemos un servicio de mantenimiento completo, que va desde la revisión y reparación de cualquier tipo de avería, hasta la reforma integral o parcial de la vivienda.",
             "items": [
                 "Revisión completa  de tu vivienda",
@@ -187,6 +225,7 @@
             "contact": "contactar"
         },
         "clean":{
+            "tab-title": "Servicio de limpieza | Rentaleazy ",
             "title": "Servicio de limpieza",
             "subtitle": "Disponemos de \"servicio profesional\" de limpieza y lavandería, atendiendo cada detalle, para que tu apartamento esté siempre en optimas condiciones y que los huéspedes se sientan como en casaa.",
             "items": [

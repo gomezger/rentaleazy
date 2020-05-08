@@ -31,7 +31,9 @@ header .info.telefono{
 .navbar-collapse{
     margin-top: 10px;
 }
-
+.nav-item{
+    cursor: pointer;
+}
 .navbar .navbar-nav .nav-item a.nav-link{    
     text-transform: uppercase;
     color: rgba(109,110,112,1);

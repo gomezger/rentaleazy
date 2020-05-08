@@ -2,14 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-rentals',
-  templateUrl: './rentals.component.html',
+  selector: 'app-about-us',
+  templateUrl: './about-us.component.html',
   styleUrls: [
-    './rentals.component.scss',
+    './about-us.component.scss',
+    '../rentals/rentals.component.scss',
     '../index/packages/packages.component.scss'
   ]
 })
-export class RentalsComponent implements OnInit {
+export class AboutUsComponent implements OnInit {
 
   constructor(
     public translate: TranslateService
@@ -20,7 +21,7 @@ export class RentalsComponent implements OnInit {
   }
 
   setData(){
-    this.translate.get('alquiler.tab-title').subscribe((res: string) => {
+    this.translate.get('about.tab-title').subscribe((res: string) => {
       document.title = res;
     });
   }

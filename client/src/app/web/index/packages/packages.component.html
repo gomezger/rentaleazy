@@ -6,7 +6,7 @@
 
         <section class="packages col-12">
             <div class="container text-center">
-                <div [routerLink]="['services/complete']" class="package package-complete scroll-reveal-300">
+                <a [routerLink]="[recoil+'services/complete']" class="package package-complete scroll-reveal-300">
                     <div class="icon"><i class="fas fa-house-damage"></i></div>
                     <h6 class="title">{{'index.packages.options.0.title' | translate}}</h6>
                     <ul class="items mb-1 mb-md-2 text-center">
@@ -25,12 +25,12 @@
                             <div class="symbol">%</div>
                             <div class="unit ml-2">{{'index.packages.options.0.cost.unit' | translate}}</div>
                         </div>
-                        <button [routerLink]="['services/complete']"  type="button" class="contact">
+                        <button [routerLink]="[recoil+'services/complete']"  type="button" class="contact">
                             {{'index.packages.more' | translate}}
                         </button>
                     </div>
-                </div>
-                <div [routerLink]="['services/check-in']" class="package package-checkin scroll-reveal-300">
+                </a>
+                <a [routerLink]="[recoil+'services/check-in']" class="package package-checkin scroll-reveal-300">
                     <div class="icon"><i class="fas fa-key"></i></div>
                     <h6 class="title">{{'index.packages.options.1.title' | translate}}</h6>
                     <ul class="items mb-1 mb-md-2 text-center">
@@ -49,11 +49,11 @@
                             <div class="symbol">€</div>
                             <div class="unit ml-2">{{'index.packages.options.1.cost.unit' | translate}}</div>
                         </div>
-                        <button [routerLink]="['services/check-in']"  type="button" class="contact">
+                        <button [routerLink]="[recoil+'services/check-in']"  type="button" class="contact">
                             {{'index.packages.more' | translate}}
                         </button>
                     </div>
-                </div>
+                </a>
             </div>
         </section>
         

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core'
 import { ActivatedRoute, Router } from '@angular/router';
+import ScrollReveal from 'scrollreveal';
 
 @Component({
   selector: 'app-web',
@@ -16,10 +17,17 @@ export class WebComponent implements OnInit {
     public _activatedRoute: ActivatedRoute,
     public _router: Router
   ) { 
-    this.translate.addLangs(this.languages);
   }
 
   ngOnInit(): void {
+    this.language();
+    ScrollReveal().reveal('.scroll-reveal-300', { delay: 300, easing: 'ease-in' });
+    ScrollReveal().reveal('.scroll-reveal-100', { delay: 100, easing: 'ease-in'  });
+  }
+
+
+  language(){
+    this.translate.addLangs(this.languages);
     this.translate.setDefaultLang(this.defaultLanguage);
     
     const language:string = this._activatedRoute.snapshot.paramMap.get('language');

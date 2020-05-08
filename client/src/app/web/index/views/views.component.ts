@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
-import 'bootstrap';
+/* import * as $ from 'jquery';
+import 'bootstrap'; */
 
 @Component({
   selector: 'app-views',
@@ -12,8 +12,8 @@ export class ViewsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    $('.carousel-views').carousel({
+  /*   $('.carousel-views').carousel({
       interval: 10000
-    });
+    }); */
   }
 }
