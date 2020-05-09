@@ -33,6 +33,7 @@ import { BathComponent } from './services/extras/bath/bath.component';
 import { MaintenanceComponent } from './services/extras/maintenance/maintenance.component';
 import { PhotoComponent } from './services/extras/photo/photo.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -62,6 +63,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     AboutUsComponent
   ],
   imports: [
+    FormsModule,
     CommonModule,
     WebRoutingModule,
     HttpClientModule,

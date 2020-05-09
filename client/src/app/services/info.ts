@@ -3,6 +3,7 @@
  */
 export let Info = {
     city: "Valencia",
+    email: "correo@web.com",
     phone: {
         cod: {
             int : "54",

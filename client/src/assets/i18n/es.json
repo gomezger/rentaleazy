@@ -243,5 +243,20 @@
             "text": "Todos los productos de limpieza serán proveídos por el propietario.",
             "contact": "contactar"
         }
+    },
+    "contact":{
+        "tab-title": "Contacto | Rentaleazy | Gestión integral de tu alquiler inmobiliario",
+        "title": "Contacto",
+        "form": {
+            "name" : "Nombre y apellido",
+            "phone" : "Teléfono",
+            "email" : "E-mail",
+            "message" : "Mensaje"
+        },
+        "send": "Enviando consulta",
+        "success": "Consulta envianda",
+        "error": "Ingrese todos los datos requeridos",
+        "error-server": "Error al enviar consulta. Intente nuevamente.",
+        "send-button": "Enviar"
     }
 }

@@ -1,1 +1,100 @@
-<p>contact works!</p>
+<section class="float-left title-service col-12 p-0">
+    <div class="gradient float-left col-12 p-0">
+        <div class="container text-center">
+            <h1 class="title-package col-12 text-center">
+                {{'contact.title' | translate}}
+            </h1>
+            <img class="d-inline-block" src="/assets/line-box.png">            
+        </div>
+    </div>
+</section>
+
+
+<section class="sumate">
+    <div class="container">
+        <form (ngSubmit)="onSubmitContacto()" class="mt-1 mt-md-3 col-12 col-md-10 col-lg-9 col-xl-7 float-left text-left p-0">
+            <div class="col-12 col-md-12 form-group d-inline-block p-0 pr-1">
+                <label for="nombreInput"> {{'contact.form.name' | translate}} *</label>
+                <input type="text" class="form-control" id="nombreInput" name="name" [(ngModel)]="name"> 
+            </div>
+            <div class="col-12 col-md-6 form-group d-inline-block p-0 pr-1">
+                <label for="telefonoInput">{{'contact.form.phone' | translate}}*</label>
+                <input type="text" class="form-control" id="telefonoInput" name="phone" [(ngModel)]="phone">
+            </div>
+            <div class="col-12 col-md-6 form-group d-inline-block p-0">
+                <label for="emailInput">{{'contact.form.email' | translate}} *</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="correo@dominio.com" name="email" [(ngModel)]="email">
+            </div>
+            <div class="col-12 col-md-12 form-group d-inline-block p-0 pl-1">
+                <label for="mensajeInput">{{'contact.form.message' | translate}} *</label>
+                <textarea class="form-control" id="mensajeInput" row="6"  name="message" [(ngModel)]="message"></textarea>
+            </div>
+  
+            <div id="error" class="error alert-danger alert text-center d-none">{{'contact.error' | translate}}</div>
+
+            <div id="error-server" class="error alert-danger alert text-center d-none">{{'contact.error-server' | translate}}</div>
+        
+            <div id="send" class="error alert-info alert text-center d-none">{{'contact.send' | translate}}</div>
+        
+            <div id="success" class="error alert-success alert text-center d-none">{{'contact.success' | translate}}</div>
+  
+            <button (click)="onSubmitContacto()" type="button" class="col-12 btn btn-primary boton">{{'contact.send-button' | translate}}</button>
+        </form>
+  
+        <div class="datos mt-2 mt-md-4 col-12 col-lg-3 col-xl-5 p-0 pl-0 pl-lg-5 float-left">
+          <div class="titulo mt-4 mt-md-0">
+            Datos de contacto
+          </div>
+          <div class="borde corto clearfix mt-1 mb-4"></div>
+  
+          <div class="redes float-left p-0 pt-2 ">
+              <a 
+                  *ngIf="info" 
+                  [href]="info.social.facebook.url" class="dato text-dark clearfix" 
+                  target="_blank">
+                      <i class="fab fa-facebook-square mr-3"></i>{{info.social.facebook.name}}
+              </a>
+              <a 
+                  *ngIf="info" 
+                  [href]="info.social.instagram.url" class="dato text-dark clearfix" 
+                  target="_blank">
+                      <i class="fab fa-instagram mr-3"></i>{{info.social.instagram.name}}
+              </a>
+              <a 
+                  *ngIf="info" 
+                  href="https://api.whatsapp.com/send?phone={{ info.social.whatsapp.cod.int }}{{ info.social.whatsapp.cod.nac }}{{ info.social.whatsapp.number }}" class="dato text-dark clearfix" 
+                  target="_blank">
+                      <i class="fab fa-whatsapp mr-3"></i>
+                      {{ info.social.whatsapp.cod.int }}
+                      {{ info.social.whatsapp.cod.nac }}
+                      {{ info.social.whatsapp.number }}
+              </a>
+              <a 
+                  *ngIf="info" 
+                  class="dato text-dark clearfix" 
+                  target="_blank">
+                      <i class="fas fa-phone mr-3"></i>
+                      {{ info.phone.cod.int }}
+                      {{ info.phone.cod.nac }}
+                      {{ info.phone.number }}
+              </a>
+              <a 
+                  *ngIf="info" 
+                  class="dato text-dark clearfix" target="_blank">
+                      <i class="fas fa-at mr-3"></i>{{info.email}}
+              </a>
+              <a 
+                  *ngIf="info" 
+                  class="dato text-dark clearfix" target="_blank">
+                  <i class="fas fa-map-marker-alt mr-3 "></i>
+                  {{info.city}}
+              </a>
+          </div>
+  
+        </div>
+    </div>
+  </section>
+
+
+<div class="clearfix"></div>
+  
