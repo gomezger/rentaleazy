@@ -39,10 +39,10 @@
     		</div>
 			<div class="col-xs-12 col-sm-6 col-md-6 footers-four text-right d-none d-md-inline-block">
 				<ul class="list-unstyled">
-					<li><a [routerLink]="['contact']">Contacto</a></li>
-					<li><a [routerLink]="['co-host']">Co-Host</a></li>
-					<li><a [routerLink]="['services']">Servicios</a></li>
-					<li><a [routerLink]="['/',lang]">Inicio</a></li>
+					<li><a [routerLink]="['contact']">{{'header.contact' | translate}}</a></li>
+					<li><a [routerLink]="['rental']">{{'header.rentals' | translate}}</a></li>
+					<li><a [routerLink]="['services']">{{'header.services' | translate}}</a></li>
+					<li><a [routerLink]="['about-us']">{{'header.about-us' | translate}}</a></li>
 				</ul>
 			</div>    		
        </div>
@@ -64,7 +64,7 @@
         <div class="row text-center">
             <div class="col-md-12 pt-3">
                 <p class="text-muted text-center text-md-right">
-					<a class="text-light" href="https://xeronweb.com">© 2020 Rentaleazy. Hecho por Xeron Web</a>
+					<a class="text-light" href="https://xeronweb.com">{{'footer.sign' | translate}}</a>
 				</p>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core'
 import { ActivatedRoute, Router } from '@angular/router';
 import { Info } from 'src/app/services/info';
@@ -10,6 +10,7 @@ import { Info } from 'src/app/services/info';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  @ViewChild('navbarToggler') navbarToggler:ElementRef;
   // attributes
   public lang: string;
   public phone: any;
@@ -49,11 +50,24 @@ export class HeaderComponent implements OnInit {
     // replace es, en or it for new language
     const url_new = url_old.replace(lang_old, lang_new);
 
+    this.collapseNav();
 
     // navigate to new url
     this._router.navigate([url_new]);
 
 
   }
+
+  
+  navBarTogglerIsVisible() {
+    return this.navbarToggler.nativeElement.offsetParent !== null;
+  }
+  
+  collapseNav() {
+    if (this.navBarTogglerIsVisible()) {
+      this.navbarToggler.nativeElement.click();
+    }
+  }
+
 
 }

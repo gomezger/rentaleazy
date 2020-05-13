@@ -1,7 +1,7 @@
 <section class="float-left title-service col-12 p-0">
     <div class="gradient float-left col-12 p-0">
         <div class="container text-center">
-            <h1 class="title-package col-12 text-center">
+            <h1 class="title-package col-12 text-center scroll-reveal-100">
                 {{'index.packages.options.1.title' | translate}}
             </h1>
             <img class="d-inline-block" src="/assets/line-box.png">
@@ -12,7 +12,7 @@
 
 <div class="clearfix"></div>
 
-<section class="data col-12 float-left">
+<section class="data col-12 float-left scroll-reveal-300">
     <div class="container text-center">
         <div class="col-12 col-md-7 pl-0 pl-md-5 float-right text-center text-md-left">
             <ul class="items col-12 col-md-12 float-left pl-3 pl-md-3">
@@ -27,20 +27,24 @@
         </div>
         <div class="extra col-12 col-md-4 float-left float-md-right">
             <div class="price col-12">
-                <p><arrow></arrow> <b>18€</b> de lunes  a viernes de 9hs a 20hs</p>
-                <p><arrow></arrow> Fines de semana: +4€</p>
                 <p>
-                    <arrow></arrow> Precios fuera de horario:
+                    <arrow></arrow> 
+                    <b>{{'index.packages.options.1.cost.number' | translate}}{{'index.packages.options.1.cost.symbol' | translate}}</b> 
+                    {{'index.packages.options.1.description.days' | translate}}
+                </p>
+                <p><arrow></arrow> {{'index.packages.options.1.description.weekend' | translate}}</p>
+                <p>
+                    <arrow></arrow> {{'index.packages.options.1.description.out' | translate}}
                 </p>
                 <ul class="ml-4">
-                    <li>De 20hs a 22hs: 25€</li>
-                    <li>De 22hs a 00hs: 35€</li>
-                    <li>De 00hs a 9hs: 45€</li>
+                    <li>{{'index.packages.options.1.description.out.items.0' | translate}}</li>
+                    <li>{{'index.packages.options.1.description.out.items.1' | translate}}</li>
+                    <li>{{'index.packages.options.1.description.out.items.2' | translate}}</li>
                 </ul>
 
             </div>
             <div class="clearfix"></div>
-            <button type="button" class="contact" data-toggle="modal" data-target="#exampleModalCenter">
+            <button [routerLink]="['../../contact']" type="button" class="contact" data-toggle="modal" data-target="#exampleModalCenter">
                 {{'index.packages.contact' | translate}}
             </button>
         </div>
@@ -49,7 +53,7 @@
 
 <div class="clearfix"></div>
 
-<app-additional></app-additional>
+<app-additional [recoil]="'../../'"></app-additional>
 
 
 

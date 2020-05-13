@@ -21,8 +21,13 @@ export class WebComponent implements OnInit {
 
   ngOnInit(): void {
     this.language();
+    ScrollReveal().reveal('.scroll-reveal-350', { delay: 100, easing: 'ease-in'  });
     ScrollReveal().reveal('.scroll-reveal-300', { delay: 300, easing: 'ease-in' });
+    ScrollReveal().reveal('.scroll-reveal-250', { delay: 100, easing: 'ease-in'  });
+    ScrollReveal().reveal('.scroll-reveal-200', { delay: 100, easing: 'ease-in'  });
+    ScrollReveal().reveal('.scroll-reveal-150', { delay: 100, easing: 'ease-in'  });
     ScrollReveal().reveal('.scroll-reveal-100', { delay: 100, easing: 'ease-in'  });
+    ScrollReveal().reveal('.scroll-reveal-50', { delay: 100, easing: 'ease-in'  });
   }
 
 

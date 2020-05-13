@@ -65,10 +65,14 @@
                         "Asesoramiento turístico"
                     ],                   
                     "description": {
-                        "days": "de lunes a viernes de",
-                        "weekend": "Fin de semana",
+                        "days": "de lunes a viernes de 9hs a 20hs",
+                        "weekend": "Fines de semana: +4€",
                         "out": "Precios fuera de horario",
-                        "int": "a"
+                        "out.items": [
+                            "De 20hs a 22hs: 25€",
+                            "De 22hs a 00hs: 35€",
+                            "De 00hs a 9hs: 45€"
+                        ]
                     },
                     "cost": {
                         "number": "18",
@@ -257,6 +261,10 @@
         "success": "Consulta envianda",
         "error": "Ingrese todos los datos requeridos",
         "error-server": "Error al enviar consulta. Intente nuevamente.",
-        "send-button": "Enviar"
+        "send-button": "Enviar",
+        "data.title": "Datos de contacto"
+    },
+    "footer": {
+        "sign": "© 2020 Rentaleazy. Hecho por Xeron Web"
     }
 }
