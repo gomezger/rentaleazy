@@ -19,7 +19,7 @@ export class WhatsappComponent implements OnInit {
       $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#footer").offset();
-        contenido2 = contenido2.top-800;
+        contenido2 = contenido2.top-700;
     
         if(windowHeight <= contenido2  ){
           $('#whatsapp').fadeIn(500);       
