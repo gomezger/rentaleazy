@@ -1,246 +1,267 @@
 {
-	"header":{
-		"index":"start",
-		"about-us":"us",
-		"packages":"packages",
-		"services":"services",
-		"opinions":"views",
-		"contact":"contact",
-		"rentals":"rentals",
-		"slogan":[
-			"Comprehensive management of your rental ",
-			"real estate"
-		]
-	},
-	"index":{
-		"tab-title":"Rentaleazy | comprehensive Management of your rental property | Valencia, Spain",
-		"carrousel":{
-			"title":"Comprehensive management of your rental real estate",
-			"subtitle":"We manage the rental of your apartment and tourist long stay in Valencia and surroundings",
-			"button":"View Packages"
-		},
-		"about":{
-			"who":{
-				"title":"Rentaleazy",
-				"p1":"We are a team of professionals trained in hospitality, expert in reservations management, positioning on multiple platforms, and customer care. ",
-				"p2":"We offer all types of services and comprehensive management for your property.",
-				"p3":"With the aim of getting the most out of your rental property, get a higher price optimization and increase your income.",
-				"p4":"We focus on obtaining the maximum profitability of your rental property, without having to worry about anything."
-			}
-		},
-		"packages":{
-			"tab-title":"Tourist services | Rentaleazy | comprehensive Management of your rental real estate",
-			"title":"Services",
-			"options":[
-				{
-					"title":"Complete Management",
-					"tab-title":"Full Management | Tourism Services | Rentaleazy",
-					"items":[
-						"Price optimization",
-						"Management of the reserves",
-						"Analysis of the guests",
-						"Check-in and check-out",
-						"Care service to the guest 24 hours",
-						"Professional cleaning",
-						"Attention to the maintenance of the home",
-						"Change of bed and bathroom linen"
-					],
-					"description":"Personalized service for the management of your rental cheap, from managing reservations on multiple platforms, up to the reception of guests 24 hours a day counseling, deep cleaning and fix of the apartment in general for everything to work correctly. Everything you need to get the most out of your rental.",
-					"cost":{
-						"number":"Eighteen",
-						"symbol":"%",
-						"unit":"for booking"
-					}
-				},
-				{
-					"title":"Service Check-in ",
-					"tab-title":"Service Check-in | Tourist Services | Rentaleazy",
-					"items":[
-						"Contact with the guests",
-						"Reception and welcome at the apartment",
-						"Explanation of the operation of the housing ",
-						"Delivery of keys ",
-						"Information about activities in the city ",
-						"Delivery of keys ",
-						"Tourist advice"
-					],
-					"description":{
-						"days":"Monday to Friday",
-						"weekend":"Weekend",
-						"out":"Prices outside of these hours",
-						"int":"to"
-					},
-					"cost":{
-						"number":"Eighteen",
-						"symbol":"€",
-						"unit":"From"
-					}
-				}
-			],
-			"more":"See more",
-			"contact":"Contact",
-			"best":"Recommended"
-		},
-		"additional":{
-			"title":"Additional",
-			"options":[
-				{
-					"title":"Cleaning",
-					"subtitle":"Service"
-				},
-				{
-					"title":"maintenance",
-					"subtitle":"Tuning"
-				},
-				{
-					"title":"Bed Linen\/Bathroom",
-					"subtitle":"Rental"
-				},
-				{
-					"title":"Photography",
-					"subtitle":"Design and"
-				}
-			]
-		}
-	},
-	"about":{
-		"tab-title":"Us | Rentaleazy ",
-		"title":"Us",
-		"who":{
-			"title":"Who Are We?",
-			"p1":"Rentaleazy is a team of professionals trained in hospitality, expert in reservations management, positioning on multiple platforms, and customer care. ",
-			"p2":"We offer all types of services and comprehensive management for your property.",
-			"p3":"With the aim of getting the most out of your rental property, get a higher price optimization and increase your income.",
-			"p4":"We focus on obtaining the maximum profitability of your rental property, without having to worry about anything."
-		},
-		"why":{
-			"title":"Why Rentaleazy? ",
-			"p1":"We are pioneers with a long track record in the industry of rental cheap, short-and long-term",
-			"p2":"We have multi-lingual staff are highly trained, passionate for good service, customer care and the friendly treatment. ",
-			"p3":"We have multi-lingual staff are highly trained, passionate for good service, customer care and the friendly treatment. ",
-			"p4":"Our commitment is to offer an optimal experience, translated into profitability and growth.",
-			"p5":"With Rentaleazy you will have the peace of mind that your property is in good hands and your guests are well taken care of. Increase your income without having to worry about anything. "
-		}
-	},
-	"alquiler":{
-		"tab-title":"Rentals of medium and long duration | Rentaleazy",
-		"title":"Rental of medium and long duration",
-		"text1":"We take care of the complete management of rentals short and long stay, as well as student flats. You'll get higher income and more flexibility than a long term rental.",
-		"title2":"Modalities rental",
-		"text2":{
-			"p1":"We have two types of rent for your rental apartment medium and long stay.",
-			"items":[
-				"Rent per room: We rent the rooms individually.",
-				"Rental of entire floor: We rent the full floor tenant."
-			],
-			"p2":"We manage the accommodation of young professionals and university students of bachelor, master and doctorate as well as working people.",
-			"p3":"We select those profiles that match your desires: Men, women, Spaniards or International, masters students, young professionals, etc",
-			"p4":"You'll get higher income and more flexibility than a long term rental",
-			"p5":"Save time and be free of worries knowing that your floor is in the best condition, and generating the most revenue possible."
-		},
-		"title3":"Comprehensive services for owners",
-		"text3":{
-			"p1":"We offer the most complete service to ensure the success of the rental of your apartment.",
-			"items":[
-				{
-					"title":"Management of bookings and announcements",
-					"text":"Guarantee of the highest occupancy we have a great visibility on the main platforms of advertising."
-				},
-				{
-					"title":"Interior design",
-					"text":"We advise you on the interior decoration, to take your floor with the latest trends in decoration and so get the most out of your rental"
-				},
-				{
-					"title":"Furniture",
-					"text":"Amoblamos the floor according to the profile of tenants you want to lease the housing, adapting ourselves to your budget"
-				},
-				{
-					"title":"Cleaning service",
-					"text":"We clean your apartment for a day, week or fortnight. Adapting to your needs"
-				},
-				{
-					"title":"We manage the expenses of the floor",
-					"text":"Electricity, gas, water, internet etc, We follow up the payment of the rent and the bills by the tenant. By means of vouchers."
-				},
-				{
-					"title":"Maintenance service",
-					"text":"Repair any kind of damage (paint, plumbing, electricity etc..)"
-				},
-				{
-					"title":"Comprehensive Reforms",
-					"text":"Works, renovations and small repairs"
-				}
-			]
-		},
-		"contact":"contact"
-	},
-	"extras":{
-		"photo":{
-			"tab-title":"Service of Photography and design | Rentaleazy ",
-			"title":"Photography and design",
-			"subtitle":"Free quotation without commitment",
-			"text":{
-				"p1":"We have photographers specializing in photography of interiors and architecture, so that your floor will stand out from the crowd with professional images and high-quality.",
-				"p2":"We have photographers specializing in photography of interiors and architecture, so that your floor will stand out from the crowd with professional images and high-quality.",
-				"p3":"Price on the basis of the service contract.",
-				"p4":"Free estimate and without commitment."
-			}
-		},
-		"bath":{
-			"tab-title":"Service of bed linen and bath | Rentaleazy ",
-			"title":"Bed linen and bath",
-			"subtitle":"If you need bed linen and towels for your apartment cheap, Rentaleazy provides you with everything you need. To meet your needs and offer your guests the utmost in comfort.",
-			"items":[
-				"Bottom sheet",
-				"Sheet worktop \/ cover duvet",
-				"2 pillow covers",
-				"2 shower towels",
-				"2 bath towels",
-				"bath rug"
-			],
-			"cost":[
-				"1 set + 2 guests",
-				"by set additional",
-				"Our bed sheets and towels are used in hotels 5 stars"
-			],
-			"contact":"contact"
-		},
-		"maintenance":{
-			"tab-title":"Service | maintenance Rentaleazy ",
-			"title":"Maintenance overhaul",
-			"subtitle":"We offer you a service of full maintenance, which ranges from the repair and overhaul of any type of malfunction, until the comprehensive reform or part of the housing.",
-			"items":[
-				"Complete review of your housing",
-				"Small details and fine tuning",
-				"Furnishings full",
-				"Decoration",
-				"Partial reform or comprehensive",
-				"Maintenance"
-			],
-			"cost":[
-				"Price depending on the particular service",
-				"Free quotation without commitment"
-			],
-			"contact":"contact"
-		},
-		"clean":{
-			"tab-title":"Cleaning service | Rentaleazy ",
-			"title":"Cleaning service",
-			"subtitle":"We have \"professional service\" of cleaning and laundry, attending to every detail, so that your apartment is always in optimal condition and that the guests feel at casaa.",
-			"items":[
-				"Full cleaning of bathrooms",
-				"Preparation and submission of beds",
-				"Deep cleaning of kitchen and appliances*",
-				"Sweeping, vacuuming and mopping of floors",
-				"Retriada garbage"
-			],
-			"cost":[
-				"From",
-				"For 1 apartment 1 bedroom",
-				"Housing of greater dimension: +7,50€ per room"
-			],
-			"text":"All cleaning products will be provided by the owner.",
-			"contact":"contact"
-		}
-	}
+    "header": {
+        "index": "home",
+        "about-us": "about us",
+        "packages":"paquetes",
+        "services": "services",
+        "opinions": "reviews",
+        "contact": "contact",
+        "rentals": "rentals",
+        "slogan": [
+            "full service rental management",
+            ""
+        ]
+    },
+    "index": {
+        "tab-title": "Rentaleazy | full service rental management | Valencia, spain",
+        "carrousel": {
+            "title": "Full service rental management",
+            "subtitle": "We manage the rental of your apartment and mid to long term stays in Valencia and the surrounding area",
+            "button": "Ver Paquetes"
+        },
+        "about": {
+            "who": {
+                "title": "Rentaleazy",
+                "p1" : "We are a team of professionals in the hospitality industry, experts in reservation management, advert positioning on multiple platforms and customer service. ",
+                "p2" : "We offer all kinds of services and complete management of your property.",
+                "p3" : "In order to get the most out of your rental, achieve a better price optimisation and increase your income.",
+                "p4" : "We focus on getting maximum profit and return on your rental property, without you having to worry about anything."
+            }
+        },
+        "packages": {
+            "tab-title": "Servicios Turísticos | Rentaleazy | full service rental management",
+            "title": "Services",
+            "options": [
+                {
+                    "title": "Full Management Service",
+                    "tab-title": "Full Management Service | Tourist Services | Rentaleazy",
+                    "items": [
+                        "Price optimization",
+                        "Booking management",
+                        "Guest analysis",
+                        "Check-in and check-out",
+                        "24h guest service",
+                        "Professional cleaning",
+                        "Home maintenance and tuning",
+                        "Change of bed and bath linen"
+                    ],
+                    "description": "*Personalized service for the management of your tourist apartment, from managing reservations on multiple platforms, to the reception of guests 24 hours a day. We offer counseling, profesional cleaning and full review of your apartment to make sure everything is in working order. Everything you need to get the most out of your rental*",
+                    "cost": {
+                        "number": "18",
+                        "symbol": "%",
+                        "unit": "Per booking"
+                    }
+                },
+                {
+                    "title": "Check-in Service ",
+                    "tab-title": "Check-in Service | Tourist Services | Rentaleazy",
+                    "items": [
+                        "contact with guests",
+                        "Reception and welcome to the apartment",
+                        "Explanation of the operation of the house ",
+                        "Information about activities in the city ",
+                        "Key handover ",
+                        "Tourist advice"
+                    ],                   
+                    "description": {
+                        "days": "From Monday to Friday - 9hs to 20hs",
+                        "weekend": "Weekends: +5€",
+                        "out": "Prices out of schedule",
+                        "out.items": [
+                            "From 20hs to 22hs: 25€",
+                            "From 22hs to 00hs: 35€",
+                            "from 00hs to 9hs: 45€"
+                        ]
+                    },
+                    "cost": {
+                        "number": "18",
+                        "symbol": "€",
+                        "unit": "From"
+                    }
+                }
+            ],
+            "more": "More info.",
+            "contact": "Contact",
+            "best": "Recommended"
+        },
+        "additional": {
+            "title": "Extra services",
+            "options":
+                [
+                    {
+                        "title": "Cleaning",
+                        "subtitle": "Service"
+                    },
+                    {
+                        "title": "Maintenance",
+                        "subtitle": "Service"
+                    },
+                    {
+                        "title": "Bed linen/towels",
+                        "subtitle": "Rental"
+                    },
+                    {
+                        "title": "Photography",
+                        "subtitle": "Design and"
+                    }
+                ]
+        }
+    },
+    "about": {
+        "tab-title": "About us | Rentaleazy ",
+        "title": "About us",
+        "who": {
+            "title": "¿Who are we?",
+            "p1" : "Rentaleazy is a team of professionals in the hospitality industry, experts in reservation management, advert positioning on multiple platforms and customer service. ",
+            "p2": "We offer all kinds of services and complete management of your property.",
+            "p3" :"In order to get the most out of your rental, achieve a better price optimisation and increase your income.",
+            "p4" : "We focus on getting maximum profit and return on your rental property, without you having to worry about anything."
+        },
+        "why" : {
+            "title": "¿Why Rentaleazy? ",
+            "p1" : "We are pioneers with a long track record in the sector of tourist rentals, as well as short and long term stays.",
+            "p2" : "Our trained multilingual staff is very professional, friendly and passionate about customer service. ",
+            "p4" : "Our commitment is to offer an optimal experience, leading to profitability and growth.",
+            "p5" : "With Rentaleazy you will have peace of mind that your property is in good hands and your guests are well taken care of. Increase your income without having to worry about anything. "
+        }
+    },
+    "alquiler": {
+        "tab-title": "Medium and long term rentals | Rentaleazy",
+        "title": "Medium and long term rentals",
+        "text1": "We take care of the complete management of short and long term rentals, as well as student flats. You'll get more income and flexibility than with a long-term rental.",
+        "title2": "Types of rental",
+        "text2":{
+            "p1" : "We have two types of rental for your medium and long-term rental apartment.",
+            "items": [
+                "Rent per room: Rooms are rented individually.",
+                "Rent per apartment: The entire apartment is rented."
+            ],
+            "p2": "We manage the accommodation of young professionals, university students, masters and PhD as well as working people.",
+            "p3": "Selecting those profiles that fit your desires: Men, women, Spanish or international master students, young professionals etc.",
+            "p4" : "You'll get more income and flexibility than with a long-term rental.",
+            "p5" : "Save time and free yourself from worries knowing that your apartment is in the best conditions and generating the highest income."
+        },
+        "title3": "Comprehensive services for owners",
+        "text3": {
+            "p1": "We offer you the most complete service, to ensure the success in renting your apartment.",
+            "items":[
+                {
+                    "title": "Booking and advertisement management",
+                    "text": "Maximum occupancy guaranteed, we have great positioning on the main advert platforms."
+                },
+                {
+                    "title": "Interior Design",
+                    "text": "We advise you on interior decoration, to have your apartment with the latest decoration trends, and get the most profit out of your rental"
+                },
+                {
+                    "title": "Furnishing",
+                    "text": "We furnish your apartment according to the profile of tenants to whom you want to lease the house, adapting to your budget."
+                },
+                {
+                    "title": "Cleaning Service",
+                    "text": "We clean your apartment per day, week or fortnight, adapting to your needs."
+                },
+                {
+                    "title": "Manage the expenses of the apartment",
+                    "text": "Electricity, gas, water, internet etc. We track the rent and bills payment, through payment receipts."
+                },
+                {
+                    "title": "Maintenance Service",
+                    "text": "Repair of any type of breakdown (painting, plumbing, electricity etc.)"
+                },
+                {
+                    "title": "Comprehensive Refurbishment",
+                    "text": "Construction, remodeling, renovation and small repairs"
+                }
+            ]
+        },
+        "contact": "Contact"
+    },
+    "extras": {
+        "photo":{
+            "tab-title": "Photography and Design Service | Rentaleazy ",
+            "title": "Photography and Design",
+            "subtitle": "Free quote without obligation",
+            "text": {
+                "p1": "Our photographer specialized in interior photography and architecture, will make your apartment stand out from the rest with high-quality professional images.",
+                "p2": "Pricing according to the service.",
+                "p3": "Free quote without obligation."
+            }
+        },
+        "bath":{
+            "tab-title": "Bed linen/towels Service| Rentaleazy ",
+            "title": "Bed linen/towels",
+            "subtitle": "If you need bed linens and towels for your tourist apartment, Rentaleazy provides you with everything you need. To meet your needs and offer your guests maximum comfort.",
+            "items": [
+                "Fitted sheet",
+                "bed sheet / Duvet cover",
+                "2 Pillow covers",
+                "2 Bath towels",
+                "2 Hand Towels",
+                "bath mat"
+            ],
+            "cost": [
+                "1 set + 2 guests",
+                "Per additional set",
+                "Our bed linen and towels are used in 5 star hotels"
+            ],
+            "contact": "Contact"
+        },
+        "maintenance":{
+            "tab-title": "Maintenance service | Rentaleazy ",
+            "title": "Maintenance and fine-tuning",
+            "subtitle": "We offer you a complete maintenance service, ranging from the review and repair of any type of breakdown, to the complete or partial refurbishment of the property.",
+            "items": [
+                "Full inspection of your house",
+                "Small details and set-up",
+                "Complete furnishing",
+                "Decoration",
+                "Partial or complete remodeling",
+                "Maintenance"
+            ],
+            "cost": [
+                "pricing according to the service",
+                "Free quote without obligation"
+            ],
+            "contact": "Contact"
+        },
+        "clean":{
+            "tab-title": "Cleaning Service | Rentaleazy ",
+            "title": "Cleaning Service",
+            "subtitle": "We provide \"Professional service\" de limpieza y lavandería, atendiendo cada detalle, para que tu apartamento esté siempre en optimas condiciones y que los huéspedes se sientan como en casaa.",
+            "items": [
+                "Full cleaning of bathroom",
+                "Making and presentation of bed",
+                "Deep cleaning of kitchen and appliances*",
+                "Sweeping, vacuuming and mopping floors",
+                "Garbage removal"
+            ],
+            "cost": [
+                "From",
+                "for 1 bedroom apartment ",
+                "Apartments with more than 1 bedroom: +7,50€ per bedroom"
+            ],
+            "text": "All cleaning products will be provided by the owner. Required in the house: vacuum cleaner, broom, dustpan, mop and bucket",
+            "contact": "Contact"
+        }
+    },
+    "contact":{
+        "tab-title": "Contact | Rentaleazy | Full service rental management",
+        "title": "Contact",
+        "form": {
+            "name" : "Full name",
+            "phone" : "Phone",
+            "email" : "E-mail",
+            "message" : "Message"
+        },
+        "send": "Sending message",
+        "success": "Message sent",
+        "error": "Enter all the required data",
+        "error-server": "Error sending message. Try again.",
+        "send-button": "Send",
+        "data.title": "Contact information"
+    },
+    "footer": {
+        "sign": "© 2020 Rentaleazy. Made by Xeron Web"
+    }
 }

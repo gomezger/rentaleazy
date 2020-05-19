@@ -34,6 +34,7 @@ import { MaintenanceComponent } from './services/extras/maintenance/maintenance.
 import { PhotoComponent } from './services/extras/photo/photo.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FormsModule } from '@angular/forms';
+import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
 
 
 @NgModule({
@@ -60,7 +61,8 @@ import { FormsModule } from '@angular/forms';
     BathComponent,
     MaintenanceComponent,
     PhotoComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    WhatsappComponent
   ],
   imports: [
     FormsModule,

@@ -61,7 +61,6 @@
                         "Explicación del funcionamiento de la vivienda ",
                         "Entrega de llaves ",
                         "Información sobre actividades en la ciudad ",
-                        "Entrega de llaves ",
                         "Asesoramiento turístico"
                     ],                   
                     "description": {
@@ -186,9 +185,8 @@
             "subtitle": "Presupuesto gratuito y sin compromiso",
             "text": {
                 "p1": "Contamos con fotógrafos especializados en fotografía de interiores y de arquitectura, para que tu piso se destaque entre los demás con imágenes profesionales y de alta calidad.",
-                "p2": "Contamos con fotógrafos especializados en fotografía de interiores y de arquitectura, para que tu piso se destaque entre los demás con imágenes profesionales y de alta calidad.",
-                "p3": "Precio en función del servicio a contratar.",
-                "p4": "Presupuesto gratuito y sin compromiso."
+                "p2": "Precio en función del servicio a contratar.",
+                "p3": "Presupuesto gratuito y sin compromiso."
             }
         },
         "bath":{
