@@ -33,7 +33,7 @@
             "title": "Services",
             "options": [
                 {
-                    "title": "Full Management Service",
+                    "title": "Full Management",
                     "tab-title": "Full Management Service | Tourist Services | Rentaleazy",
                     "items": [
                         "Price optimization",
@@ -105,6 +105,9 @@
                         "subtitle": "Design and"
                     }
                 ]
+        },
+        "views":{
+            "subtitle": "View"
         }
     },
     "about": {

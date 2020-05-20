@@ -16,6 +16,7 @@ export class ViewComponent implements OnInit {
   @Input() score: string;
   @Input() name: string;
   @Input() surname: string;
+  @Input() flag: string;
 
   constructor() { }
 

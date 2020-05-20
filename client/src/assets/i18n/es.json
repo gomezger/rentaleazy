@@ -105,6 +105,9 @@
                         "subtitle": "Diseño y"
                     }
                 ]
+        },
+        "views":{
+            "subtitle": "Opinión"
         }
     },
     "about": {
