@@ -1,5 +1,6 @@
 .view{
     float: left;
+    min-height: 47vh;
 }
 
 .view .image{
@@ -113,6 +114,9 @@
 }
 
 @media only screen and (max-width: 991px) {	
+    .view{
+        min-height: unset;
+    }
     .view .image{
         width: 55%;
         height: 35vh;

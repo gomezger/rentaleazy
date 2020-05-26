@@ -11,6 +11,7 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -23,6 +24,18 @@
               [name]="'Rocío'"
               [surname]="'2018'"
               [flag]="'assets/flags/spain.jpg'"
+          ></app-view>
+        </div>
+        <div class="carousel-item">
+          <app-view 
+            [active]="false"
+            [image]="'/assets/views/apartments/photo2.jpeg'"
+            [text]="'Casa di Francisco è perfetta, anzi superiore alle aspettative: posizione rispetto alla città ( si trova poco dopo le Torres de Serrano e la zona è tranquillissima), la casa è nuova, pulita e ben organizzata di tutti i confort e necessario, poi il terrazzo una chicca, peccato che la pioggia (insolita per Valencia ahimè) m l\'abbia fatta godere solo per una colazione; sotto casa c\'è un supermercato, farmacia, insomma per soggiorni anche lunghi va benissimo. E infine, ma Francisco: l\'host perfetto, disponibile, risposte sempre pronte ed esaustive, consigli validissimi, per cui non posso che stra consigliarlo! Grazie '"
+            [title]="'MI CASA ES TU CASA'"
+            [photo]="'/assets/views/people/image2.png'"
+            [name]="'Anita'"
+            [surname]="'2018'"
+            [flag]="'assets/flags/italy.jpg'"
           ></app-view>
         </div>
         <div class="carousel-item">
@@ -88,6 +101,18 @@
         <div class="carousel-item">
           <app-view 
             [active]="false"
+            [image]="'/assets/views/apartments/photo6.jpeg'"
+            [text]="'We had a great stay in Francisco\'s apartment. It was super clean and comfortable. Recommended!'"
+            [title]="'Apartamento de diseño en Benimaclet'"
+            [photo]="'/assets/views/people/image10.png'"
+            [name]="'Willemijn'"
+            [surname]="'2019'"  
+            [flag]="'assets/flags/uk.jpg'"
+          ></app-view>
+        </div>
+        <div class="carousel-item">
+          <app-view 
+            [active]="false"
             [image]="'/assets/views/apartments/photo5.jpeg'"
             [text]="'Our stay in Valencia was wonderful! The apartment was well connected to public transport, super close to the city, clean, and cosy! Thank you for a lovely stay Francisco.'"
             [title]="'Apartamento de diseño en Benimaclet'"
@@ -107,18 +132,6 @@
             [name]="'Saida'"
             [surname]="'2019'"
             [flag]="'assets/flags/spain.jpg'"
-          ></app-view>
-        </div>
-        <div class="carousel-item">
-          <app-view 
-            [active]="false"
-            [image]="'/assets/views/apartments/photo2.jpeg'"
-            [text]="'Casa di Francisco è perfetta, anzi superiore alle aspettative: posizione rispetto alla città ( si trova poco dopo le Torres de Serrano e la zona è tranquillissima), la casa è nuova, pulita e ben organizzata di tutti i confort e necessario, poi il terrazzo una chicca, peccato che la pioggia (insolita per Valencia ahimè) m l\'abbia fatta godere solo per una colazione; sotto casa c\'è un supermercato, farmacia, insomma per soggiorni anche lunghi va benissimo. E infine, ma Francisco: l\'host perfetto, disponibile, risposte sempre pronte ed esaustive, consigli validissimi, per cui non posso che stra consigliarlo! Grazie '"
-            [title]="'MI CASA ES TU CASA'"
-            [photo]="'/assets/views/people/image2.png'"
-            [name]="'Anita'"
-            [surname]="'2018'"
-            [flag]="'assets/flags/italy.jpg'"
           ></app-view>
         </div>
     </div>
