@@ -263,7 +263,8 @@
         "error": "Ingrese todos los datos requeridos",
         "error-server": "Error al enviar consulta. Intente nuevamente.",
         "send-button": "Enviar",
-        "data.title": "Datos de contacto"
+        "data.title": "Datos de contacto",
+        "city": "Valencia, España"
     },
     "footer": {
         "sign": "© 2020 Rentaleazy. Hecho por Xeron Web"

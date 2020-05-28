@@ -15,7 +15,6 @@ export class HeaderComponent implements OnInit {
   public lang: string;
   public phone: any;
   public social: any;
-  public city: any;
 
   constructor(
     public translate: TranslateService,
@@ -27,7 +26,6 @@ export class HeaderComponent implements OnInit {
     this.lang = this._activatedRoute.snapshot.paramMap.get('language');
     this.phone = Info.phone;
     this.social = Info.social;
-    this.city = Info.city;
   }
 
   /**
@@ -40,6 +38,8 @@ export class HeaderComponent implements OnInit {
     
     //modifico el lang acutal
     this.lang = lang_new;
+
+    document.documentElement.setAttribute('lang',lang_new);
 
     // current language
     const lang_old:string = this._activatedRoute.snapshot.paramMap.get('language');

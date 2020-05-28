@@ -49,47 +49,48 @@
           <div class="borde corto clearfix mt-1 mb-4"></div>
   
           <div class="redes float-left p-0 pt-2 ">
-              <a 
-                  *ngIf="info" 
-                  [href]="info.social.facebook.url" class="dato text-dark clearfix" 
-                  target="_blank">
-                      <i class="fab fa-facebook-square mr-3"></i>{{info.social.facebook.name}}
-              </a>
-              <a 
-                  *ngIf="info" 
-                  [href]="info.social.instagram.url" class="dato text-dark clearfix" 
-                  target="_blank">
-                      <i class="fab fa-instagram mr-3"></i>{{info.social.instagram.name}}
-              </a>
-              <a 
-                  *ngIf="info" 
-                  href="https://api.whatsapp.com/send?phone={{ info.social.whatsapp.cod.int }}{{ info.social.whatsapp.cod.nac }}{{ info.social.whatsapp.number }}" class="dato text-dark clearfix" 
-                  target="_blank">
-                      <i class="fab fa-whatsapp mr-3"></i>
-                      {{ info.social.whatsapp.cod.int }}
-                      {{ info.social.whatsapp.cod.nac }}
-                      {{ info.social.whatsapp.number }}
-              </a>
-              <a 
-                  *ngIf="info" 
-                  class="dato text-dark clearfix" 
-                  target="_blank">
-                      <i class="fas fa-phone mr-3"></i>
-                      {{ info.phone.cod.int }}
-                      {{ info.phone.cod.nac }}
-                      {{ info.phone.number }}
-              </a>
-              <a 
-                  *ngIf="info" 
-                  class="dato text-dark clearfix" target="_blank">
-                      <i class="fas fa-at mr-3"></i>{{info.email}}
-              </a>
-              <a 
-                  *ngIf="info" 
-                  class="dato text-dark clearfix" target="_blank">
-                  <i class="fas fa-map-marker-alt mr-3 "></i>
-                  {{info.city}}
-              </a>
+                <a 
+                    *ngIf="info"
+                    class="dato text-dark clearfix" 
+                    target="_blank">
+                    <i class="fad fa-map-marker-alt mr-3"></i>{{'contact.city' | translate }}
+                </a>
+                <a 
+                    *ngIf="info" 
+                    [href]="info.social.facebook.url" class="dato text-dark clearfix" 
+                    target="_blank">
+                        <i class="fab fa-facebook-square mr-3"></i>{{info.social.facebook.name}}
+                </a>
+                <a 
+                    *ngIf="info" 
+                    [href]="info.social.instagram.url" class="dato text-dark clearfix" 
+                    target="_blank">
+                        <i class="fab fa-instagram mr-3"></i>{{info.social.instagram.name}}
+                </a>
+                <a 
+                    *ngIf="info" 
+                    href="https://api.whatsapp.com/send?phone={{ info.social.whatsapp.cod.int }}{{ info.social.whatsapp.cod.nac }}{{ info.social.whatsapp.number }}" class="dato text-dark clearfix" 
+                    target="_blank">
+                        <i class="fab fa-whatsapp mr-3"></i>
+                        {{ info.social.whatsapp.cod.int }}
+                        {{ info.social.whatsapp.cod.nac }}
+                        {{ info.social.whatsapp.number }}
+                </a>
+                <a 
+                    *ngIf="info" 
+                    class="dato text-dark clearfix" 
+                    [attr.html]="'tel:'+info.phone.cod.int+info.phone.cod.nac+info.phone.number"
+                    target="_blank">
+                        <i class="fal fa-phone mr-3"></i>
+                        {{ info.phone.cod.int }}
+                        {{ info.phone.cod.nac }}
+                        {{ info.phone.number }}
+                </a>
+                <a 
+                    *ngIf="info" 
+                    class="dato text-dark clearfix" target="_blank">
+                        <i class="far fa-at mr-3"></i>{{info.email}}
+                </a>
           </div>
   
         </div>

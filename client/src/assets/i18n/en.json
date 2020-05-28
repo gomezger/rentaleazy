@@ -262,7 +262,8 @@
         "error": "Enter all the required data",
         "error-server": "Error sending message. Try again.",
         "send-button": "Send",
-        "data.title": "Contact information"
+        "data.title": "Contact information",
+        "city": "Valencia, Spain"
     },
     "footer": {
         "sign": "© 2020 Rentaleazy. Made by Xeron Web"

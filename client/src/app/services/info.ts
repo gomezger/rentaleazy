@@ -2,30 +2,29 @@
  * para prod
  */
 export let Info = {
-    city: "Valencia",
-    email: "correo@web.com",
+    email: "info@rentaleazy.com",
     phone: {
         cod: {
-            int : "54",
-            nac : "291"
+            int : "34",
+            nac : ""
         },
-        number: "5204726"
+        number: "623254227"
     },
     social:{
         facebook: {
-            name: "renaleazy",
-            url : "https://www.facebook.com"
+            name: "rentaleazy",
+            url : "https://www.fb.me/Rentaleazy/"
         },
         instagram: {
-            name: "renaleazy",
-            url : "https://www.instagram.com"
+            name: "rentaleazy",
+            url : "https://www.instagram.com/rentaleazy/"
         },
         whatsapp: {
             cod: {
-                int : "54",
-                nac : "291"
+                int : "34",
+                nac : ""
             },
-            number: "5204726"
+            number: "623254227"
         },
     }
 

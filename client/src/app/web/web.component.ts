@@ -9,7 +9,7 @@ import ScrollReveal from 'scrollreveal';
   styleUrls: ['./web.component.scss']
 })
 export class WebComponent implements OnInit {
-  private languages = ['es','it','en'];
+  private languages = ['es','en'];
   private defaultLanguage = 'es';
 
   constructor(
@@ -34,11 +34,14 @@ export class WebComponent implements OnInit {
   language(){
     this.translate.addLangs(this.languages);
     this.translate.setDefaultLang(this.defaultLanguage);
+    document.documentElement.setAttribute('lang','es');
     
     const language:string = this._activatedRoute.snapshot.paramMap.get('language');
+
     
     if(this.languages.indexOf(language)!=-1){    
       this.translate.use(language);
+      document.documentElement.setAttribute('lang',language);
     }else{
       this._router.navigate(['/',this.translate.getBrowserLang()]);
     }
