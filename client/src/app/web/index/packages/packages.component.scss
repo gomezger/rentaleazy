@@ -55,6 +55,8 @@ $colorGrisClaro: rgb(166, 168, 171);
 
 .packages .package-checkin{
     margin-bottom: -50px !important;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .packages .package .icon{
@@ -169,12 +171,12 @@ $colorGrisClaro: rgb(166, 168, 171);
 
 
 @media only screen and (max-width: 1410px) {   
-    .title-service{
-        background-size: auto 100%;
-    } 
 }
 
 @media only screen and (max-width: 1199px) { 
+    .title-service{
+        background-size: auto 100%;
+    } 
     .packages .package{
         min-width: 380px;
         margin: 0 30px;

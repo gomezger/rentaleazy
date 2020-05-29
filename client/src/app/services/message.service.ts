@@ -10,7 +10,7 @@ export class MessageService{
         public _http: HttpClient
     ){
         this.url = 'http://127.1.1.1/rentaleazy/api/send-mail.php';
-        this.url = '/api/send-mail.php';
+        this.url = 'api/send-mail.php';
     }
 
     send(name: string, phone: string, email: string, message: string): Observable<any>{
