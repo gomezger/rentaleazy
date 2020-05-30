@@ -1,9 +1,38 @@
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 57px;
+  width:  57px;
+  margin: 0 10px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: 'gilroy-light', 'Lexend Giga', sans-serif;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: 'gilroy-light', 'Lexend Giga', sans-serif;
+}
+
 .view{
     float: left;
     min-height: 47vh;
 }
 
 .view .image{
+    position: relative;
     float: left;
     width: 60%;
     height: 40vh;
