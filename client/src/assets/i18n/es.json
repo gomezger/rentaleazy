@@ -6,7 +6,7 @@
         "services": "servicios",
         "opinions": "opiniones",
         "contact": "contacto",
-        "rentals": "alquileres",
+        "rentals": "tipos de alquiler",
         "slogan": [
             "Gestión integral de tu alquiler ",
             "inmobiliario"
@@ -85,7 +85,7 @@
             "best": "Recomendado"
         },
         "additional": {
-            "title": "Adicionales",
+            "title": "Servicios Adicionales",
             "options":
                 [
                     {

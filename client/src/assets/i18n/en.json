@@ -6,7 +6,7 @@
         "services": "services",
         "opinions": "reviews",
         "contact": "contact",
-        "rentals": "rentals",
+        "rentals": "types of rental",
         "slogan": [
             "Full service rental management",
             ""
@@ -107,7 +107,7 @@
                 ]
         },
         "views":{
-            "subtitle": "View"
+            "subtitle": "Review"
         }
     },
     "about": {
@@ -125,7 +125,7 @@
             "p1" : "We are pioneers with a long track record in the sector of tourist rentals, as well as short and long term stays.",
             "p2" : "Our trained multilingual staff is very professional, friendly and passionate about customer service. ",
             "p4" : "Our commitment is to offer an optimal experience, leading to profitability and growth.",
-            "p5" : "With Rentaleazy you will have peace of mind that your property is in good hands and your guests are well taken care of. Increase your income without having to worry about anything. "
+            "p5" : "With Rentaleazy you will have peace of mind that your property is in good hands and your guests are well taken care of. Increase your income without you having to worry about anything. "
         }
     },
     "alquiler": {
@@ -140,7 +140,7 @@
                 "Rent per apartment: The entire apartment is rented."
             ],
             "p2": "We manage the accommodation of young professionals, university students, masters and PhD as well as working people.",
-            "p3": "Selecting those profiles that fit your desires: Men, women, Spanish or international master students, young professionals etc.",
+            "p3": "Selecting those profiles that fit your desires: Men, women, spanish or international master students, young professionals etc.",
             "p4" : "You'll get more income and flexibility than with a long-term rental.",
             "p5" : "Save time and free yourself from worries knowing that your apartment is in the best conditions and generating the highest income."
         },
