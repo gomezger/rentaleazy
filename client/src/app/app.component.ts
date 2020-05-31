@@ -10,10 +10,10 @@ export class AppComponent {
   title = 'client';
 
   constructor(
-    public _route: Router,
-    public _activatedRoute: ActivatedRoute
+    //public _route: Router,
+    //public _activatedRoute: ActivatedRoute
   ){
-    const language:string = this._activatedRoute.snapshot.paramMap.get('language');
+    //const language:string = this._activatedRoute.snapshot.paramMap.get('language');
     //this._route.navigate(['/es']);
   }
 

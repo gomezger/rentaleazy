@@ -20,7 +20,6 @@ export class WebComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.language();
     ScrollReveal().reveal('.scroll-reveal-350', { delay: 100, easing: 'ease-in'  });
     ScrollReveal().reveal('.scroll-reveal-300', { delay: 300, easing: 'ease-in' });
     ScrollReveal().reveal('.scroll-reveal-250', { delay: 100, easing: 'ease-in'  });
@@ -28,23 +27,38 @@ export class WebComponent implements OnInit {
     ScrollReveal().reveal('.scroll-reveal-150', { delay: 100, easing: 'ease-in'  });
     ScrollReveal().reveal('.scroll-reveal-100', { delay: 100, easing: 'ease-in'  });
     ScrollReveal().reveal('.scroll-reveal-50', { delay: 100, easing: 'ease-in'  });
-  }
 
+    const aux = this._activatedRoute.snapshot.paramMap;
+    let language:string = null;
+  
+    if(aux!=null)
+      language = aux.get('language');
 
-  language(){
-    this.translate.addLangs(this.languages);
-    this.translate.setDefaultLang(this.defaultLanguage);
-    document.documentElement.setAttribute('lang','es');
-    
-    const language:string = this._activatedRoute.snapshot.paramMap.get('language');
-
-    
-    if(this.languages.indexOf(language)!=-1){    
-      this.translate.use(language);
-      document.documentElement.setAttribute('lang',language);
+    if(language==null || this.languages.indexOf(language)!=1 || language==undefined){
+      language = this.getLanguage();
+      this.language(language);
+      this._router.navigate(['/',language]);
     }else{
-      this._router.navigate(['/',this.translate.getBrowserLang()]);
+      this.language(language);
     }
   }
 
+
+  language(lang){
+    this.translate.addLangs(this.languages);
+    this.translate.setDefaultLang(this.defaultLanguage);
+    this.translate.use(lang);
+    localStorage.setItem('lang', lang);
+    document.documentElement.setAttribute('lang',lang);
+  }
+
+
+  private getLanguage(): string{
+    const lang = localStorage.getItem('lang');
+    if(lang==null || lang==undefined)
+      return this.defaultLanguage;
+    else if(this.languages.indexOf(lang)!=1)
+      return lang;
+    else this.defaultLanguage;
+  }
 }

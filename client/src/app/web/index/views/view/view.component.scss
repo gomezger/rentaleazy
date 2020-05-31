@@ -1,11 +1,11 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 57px;
+  height: 57px !important;
   width:  57px;
   margin: 0 10px;
   outline: black;
-  background-size: 100%, 100%;
+  background-size: 100px, 100px;
   border-radius: 50%;
   background-image: none;
   background-color: rgba(0, 0, 0, 0.541);
@@ -100,7 +100,11 @@
 }
 
 
-@media only screen and (max-width: 1410px) {    
+@media only screen and (max-width: 1410px) {  
+    .view{
+        float: left;
+        min-height: 60vh;
+    }  
 }
 
 @media only screen and (max-width: 1199px) { 
@@ -144,7 +148,7 @@
 
 @media only screen and (max-width: 991px) {	
     .view{
-        min-height: unset;
+        min-height: 80vh;
     }
     .view .image{
         width: 55%;

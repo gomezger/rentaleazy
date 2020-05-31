@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, DoCheck } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core'
 import { ActivatedRoute, Router } from '@angular/router';
 import { Info } from 'src/app/services/info';
@@ -9,7 +9,7 @@ import { Info } from 'src/app/services/info';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent implements OnInit, DoCheck {
   @ViewChild('navbarToggler') navbarToggler:ElementRef;
   // attributes
   public lang: string;
@@ -23,9 +23,12 @@ export class HeaderComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.lang = this._activatedRoute.snapshot.paramMap.get('language');
     this.phone = Info.phone;
     this.social = Info.social;
+  }
+
+  ngDoCheck(): void{
+    this.lang = localStorage.getItem('lang');
   }
 
   /**
@@ -33,6 +36,10 @@ export class HeaderComponent implements OnInit {
    * @param lang_new abbreviation of the new language
    */
   setLanguage(lang_new: string): void{
+    this.lang = this._activatedRoute.snapshot.paramMap.get('language');
+
+    localStorage.setItem('lang', lang_new);
+    
     // set new language
     this.translate.use(lang_new);
     
