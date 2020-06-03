@@ -31,6 +31,7 @@
         "packages": {
             "tab-title": "Servicios Turísticos | Rentaleazy | full service rental management",
             "title": "Services",
+            "subtitle": "for tourist apartments",
             "options": [
                 {
                     "title": "Full Management",
@@ -58,7 +59,7 @@
                     "items": [
                         "contact with guests",
                         "Reception and welcome to the apartment",
-                        "Explanation of the operation of the house ",
+                        "Explanation of the house operation",
                         "Information about activities in the city ",
                         "Key handover ",
                         "Tourist advice"

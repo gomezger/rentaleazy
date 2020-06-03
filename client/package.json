@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "prod:upload": "ng build --buildOptimizer=true --optimization=true --prod --base-href https://rentaleazy.tk/",
+    "prod:upload": "ng build --buildOptimizer=true --optimization=true --prod --base-href /",
     "dev:ssr": "ng run client:serve-ssr",
     "serve:ssr": "node dist/client/server/main.js",
     "build:ssr": "ng build --prod && ng run client:server:production",

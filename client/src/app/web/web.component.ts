@@ -37,7 +37,6 @@ export class WebComponent implements OnInit {
     if(language==null || this.languages.indexOf(language)!=1 || language==undefined){
       language = this.getLanguage();
       this.language(language);
-      this._router.navigate(['/',language]);
     }else{
       this.language(language);
     }
@@ -50,15 +49,20 @@ export class WebComponent implements OnInit {
     this.translate.use(lang);
     localStorage.setItem('lang', lang);
     document.documentElement.setAttribute('lang',lang);
+    this._router.navigate(['/',lang]);
   }
 
 
   private getLanguage(): string{
     const lang = localStorage.getItem('lang');
-    if(lang==null || lang==undefined)
+
+    if(lang==null || lang==undefined){
       return this.defaultLanguage;
-    else if(this.languages.indexOf(lang)!=1)
-      return lang;
-    else this.defaultLanguage;
+    }else{
+      for(let l of this.languages)
+        if(l===lang) 
+          return lang;
+    }
+    return this.defaultLanguage;   
   }
 }

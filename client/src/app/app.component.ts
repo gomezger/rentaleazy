@@ -9,12 +9,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class AppComponent {
   title = 'client';
 
-  constructor(
-    //public _route: Router,
-    //public _activatedRoute: ActivatedRoute
-  ){
-    //const language:string = this._activatedRoute.snapshot.paramMap.get('language');
-    //this._route.navigate(['/es']);
+  constructor(){
   }
 
 }

@@ -1,0 +1,24 @@
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTPS} off
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+	RewriteCond %{HTTP:X-Forwarded-SSL} !on
+	RewriteCond %{HTTP_HOST} ^www\.rentaleazy\.com$
+	RewriteRule ^/?$ "https\:\/\/rentaleazy\.com\/" [R=301,L]
+
+	RewriteCond %{HTTP:X-Forwarded-SSL} !on
+	RewriteCond %{HTTP_HOST} ^www\.rentaleazy\.com$
+	RewriteRule ^/?$ "https\:\/\/rentaleazy\.com\/" [R=301,L]		
+
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^index\.html$ - [L]
+	RewriteCond %{HTTPS} on
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.html [L]
+	RewriteCond %{HTTPS} off
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+</IfModule>
