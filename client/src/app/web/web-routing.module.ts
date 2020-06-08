@@ -32,8 +32,7 @@ const routes: Routes = [
       { path: '*', component: IndexComponent },
       { path: '**', component: IndexComponent }
     ] 
-  },
-  { path: '', component: WebComponent}
+  }
 ];
 
 @NgModule({

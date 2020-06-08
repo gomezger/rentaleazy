@@ -28,7 +28,7 @@ export class HeaderComponent implements OnInit, DoCheck {
   }
 
   ngDoCheck(): void{
-    this.lang = localStorage.getItem('lang');
+    this.lang = this._activatedRoute.snapshot.paramMap.get('language');
   }
 
   /**

@@ -15,7 +15,7 @@
         ));
 
     //enviar mensaje
-    enviarCorreo('germang08@hotmail.com','Mensaje de la web',$message,$_POST['email'],$_POST['name']);
+    enviarCorreo('info@rentaleazy.com','Mensaje de la web',$message,$_POST['email'],$_POST['name']);
 
     //mensaje de retorno exitoso
     response(200,'success','Mensaje enviado');
@@ -46,15 +46,15 @@
         //tipo de smtp
         $mail->SMTPDebug = false;
         //host mail de neolo
-        $mail->Host = 'mail.detailingbahia.com';
+        $mail->Host = 'mail.rentaleazy.com';
         // puerto para ssl/tls
         $mail->Port = 465;
         //seguridad
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = "ssl";
         //usuario y pass
-        $mail->Username = '_mainaccount@detailingbahia.com';
-        $mail->Password = 'Bahia1520!';
+        $mail->Username = 'info@rentaleazy.com';
+        $mail->Password = 'eazy@paco2020';
         //quien envia
         if($from_name!=NULL){
             $mail->setFrom($from, $from_name);

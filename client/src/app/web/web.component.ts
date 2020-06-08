@@ -28,7 +28,30 @@ export class WebComponent implements OnInit {
     ScrollReveal().reveal('.scroll-reveal-100', { delay: 100, easing: 'ease-in'  });
     ScrollReveal().reveal('.scroll-reveal-50', { delay: 100, easing: 'ease-in'  });
 
-    const aux = this._activatedRoute.snapshot.paramMap;
+
+    this.translate.addLangs(this.languages);
+    this.translate.setDefaultLang(this.defaultLanguage);
+    document.documentElement.setAttribute('lang','es');
+  
+    const language:string = this._activatedRoute.snapshot.paramMap.get('language');
+  
+  
+    if(this.languages.indexOf(language)!=-1){    
+      this.translate.use(language);
+      document.documentElement.setAttribute('lang',language);
+    }else{
+      this.translate.use(this.defaultLanguage);
+      this._router.navigate(['/',this.defaultLanguage]);
+    }
+
+
+
+    /*this.translate.addLangs(this.languages);
+    this.translate.setDefaultLang(this.defaultLanguage);
+    this.translate.use(this.getLanguage());
+
+
+    /*const aux = this._activatedRoute.snapshot.paramMap;
     let language:string = null;
   
     if(aux!=null)
@@ -39,11 +62,11 @@ export class WebComponent implements OnInit {
       this.language(language);
     }else{
       this.language(language);
-    }
+    }*/
   }
 
 
-  language(lang){
+  /*language(lang){
     this.translate.addLangs(this.languages);
     this.translate.setDefaultLang(this.defaultLanguage);
     this.translate.use(lang);
@@ -54,7 +77,7 @@ export class WebComponent implements OnInit {
 
 
   private getLanguage(): string{
-    const lang = localStorage.getItem('lang');
+    const lang = this._activatedRoute.snapshot.paramMap.get('language');
 
     if(lang==null || lang==undefined){
       return this.defaultLanguage;
@@ -64,5 +87,5 @@ export class WebComponent implements OnInit {
           return lang;
     }
     return this.defaultLanguage;   
-  }
+  }*/
 }
